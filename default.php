@@ -11,7 +11,7 @@
 
     <body style="margin:0px">
     
-    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="./imagem/imgLogos/whatsapp.png" alt=""></i> </a>
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="./imagem/imgLogos/whatsapp.png" alt=""></i> </a>
 
 
         <div class="cab">
@@ -82,23 +82,119 @@
                 </div>
             </div>
             <div class="vendaDireita">
-                <img class="imgVenda"  src="./imagem/carros/mustang.png" alt="">
+                <img class="imgVenda" style="max-width: 70%;"  src="./imagem/carros/camaro.png" alt="">
             </div>
         </div>
-        
 
 
 
+        <h1 style="max-width: 100%; margin:0%; padding:2%; text-align:center; background-color:#00002ed7; color:white; " > <span class="vendaCor">Nossas avaliações</span></h1>
         <div class="coment">
-            <h1 style="text-align: center;"> Colocar reclame aqui</h1>
+            <div class="coment">
+               <div class="mySlides">
+               <div class="cEsquerda">
+                    <div class="ceFoto">
+                        <img src="./imagem/comentarios/img1.png" alt="Homem">
+                    </div>
+                    <div class="cetxt">
+                        <h1 class="h1ce1">
+                            Joao da silva Martins
+                        </h1>
+                        <h1 class="h1ce2">
+                            08/10/2021
+                        </h1>
+                        <h1 class="h1ce3">
+                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
+                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
+                        </h1>
+                    </div>
+                </div>
+                <div class="cDireita">
+                    <div class="ceFoto">
+                        <img src="./imagem/comentarios/img2.png" alt="Homem">
+                    </div>
+                    <div class="cetxt">
+                        <h1 class="h1ce1">
+                            Joao da silva Martins
+                        </h1>
+                        <h1 class="h1ce2">
+                            08/10/2021
+                        </h1>
+                        <h1 class="h1ce3">
+                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
+                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
+                        </h1>
+                    </div>
+                </div>
+               </div>
+            </div>
+
+            <div class="coment">
+                <div class="mySlides">
+                <div class="cEsquerda">
+                    <div class="ceFoto">
+                        <img src="./imagem/comentarios/img3.png" alt="Homem">
+                    </div>
+                    <div class="cetxt">
+                        <h1 class="h1ce1">
+                            Joao da silva Martins
+                        </h1>
+                        <h1 class="h1ce2">
+                            08/10/2021
+                        </h1>
+                        <h1 class="h1ce3">
+                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
+                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
+                        </h1>
+                    </div>
+                </div>
+                <div class="cDireita">
+                    <div class="ceFoto">
+                        <img src="./imagem/comentarios/img4.png" alt="Homem">
+                    </div>
+                    <div class="cetxt">
+                        <h1 class="h1ce1">
+                            Joao da silva Martins
+                        </h1>
+                        <h1 class="h1ce2">
+                            08/10/2021
+                        </h1>
+                        <h1 class="h1ce3">
+                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
+                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
+                        </h1>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 1000); // Change image every 2 seconds
+                }
+            </script>
         </div>
 
-
-
-
         <div class="perguntas">
-            <h1 style="text-align: center;" class="vendaCor">Perguntas frequentes</h1>
-
+            <h1 class="vendaCor" style="text-align: center; margin-top:0%">Perguntas frequentes</h1>
             <div class="pEsquerda">
                 <div class="pergunta">
                     <h1 style="text-align: center;">
@@ -242,5 +338,3 @@
         </div>
     </body>
 </html>
-
-<!--DESCER PRA BAIXO QUANDO A TELA ENCURTAR MUITO-->

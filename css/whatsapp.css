@@ -11,6 +11,7 @@
     font-size: 30px;
     z-index: 1000;
     transition-duration: 1s;
+    border: 1px black solid;
 }
 .logoWhats{
     width: 50px;
@@ -26,7 +27,8 @@
         height: 100px;
 
     }
-    .fa-whatsapp{
-        margin-top: 33px;
+    .logoWhats{
+        width: 70%;
+        margin: 15%;
     }
 }
