@@ -1,0 +1,71 @@
+/*HEADER*/
+.cab{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px;
+}
+.pcab{
+    padding: 2px 0px 2px 20%;
+    font-size: 20px;
+}
+.cabHover{
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color: black;
+}
+.cabHover:hover{
+    border-bottom: 1px #ff4700 solid;
+    border-right: 1px #ff4700 solid;
+}
+
+/*FOOTER*/
+
+.rodape{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.h1rodape{
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+}
+.imgrodape{
+    width: 40px;
+    padding: 0px 10px 0px 10px;
+}
+.imgCentro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.h1rodape2{
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+    padding-bottom:5px ;
+}
+.arodape1{
+    text-decoration: none;
+    color:white;
+}
+.arodape1:hover{
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.aRodape{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+.aRodape:hover{
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
