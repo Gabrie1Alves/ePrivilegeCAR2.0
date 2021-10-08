@@ -11,7 +11,7 @@
 
     <body style="margin:0px">
     
-    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="./imagem/imgLogos/whatsapp.png" alt=""></i> </a>
 
 
         <div class="cab">
