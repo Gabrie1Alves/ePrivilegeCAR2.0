@@ -1,0 +1,30 @@
+.comoFunciona{
+    width: 60%;
+    height: auto;
+    display: inline;
+    align-items: center;
+    height: auto;
+}
+.divCF{
+    width: 70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+.divCF1{
+    width: 35%; 
+    margin-left:32.5%; 
+    margin-right:32.5%;
+}
+
+@media(max-width: 1000px){
+    .divCF{
+        width: 90%;
+        margin-left:5%; 
+        margin-right:5%;
+    }
+    .divCF1{
+        width: 45%; 
+        margin-left:27.5%; 
+        margin-right:27.5%;
+    }
+}

@@ -1,0 +1,145 @@
+.logoGrandeBuscas{
+    width: 100%;
+    height: 295px;
+    background-color: #246fa7;
+}
+
+
+/*Slide*/
+.w3-content,.w3-auto{
+    display: inline;
+    margin-left:auto;
+    margin-right:auto;
+    float: right;
+    max-width:541px;
+}
+
+
+.w3-content{
+    max-width:541px;
+}
+
+
+.w3-section,.w3-code{
+    margin-top:0px!important;
+    margin-bottom:0px!important}
+
+.mySlides {
+    display:none;
+    height: 100%;
+}
+
+/*Busca*/
+.busca{
+    display: inline;
+    margin: 1px 1px;
+}
+
+@media(max-width: 1090px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:0px;
+        margin-right:0px;
+        float: center;
+    }
+}
+
+
+
+/*
+
+@media(max-width: 900px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:21%;
+        margin-right:21%;
+        float: center;
+    }
+}
+@media(max-width: 750px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:15%;
+        margin-right:15%;
+        float: center;
+    }
+}
+@media(max-width: 600px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:10%;
+        margin-right:10%;
+        float: center;
+    }
+}
+
+@media(max-width: 550px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:2%;
+        margin-right:2%;
+        float: center;
+    }
+}
+@media(max-width: 500px){
+    .w3-content,.w3-auto{
+        display: inline;
+        max-width: 100%;
+        margin-left:0%;
+        margin-right:0%;
+        float: center;
+    }
+}*/
+
+
+*{
+    box-sizing: border-box;
+}
+  
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+}
+  
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #d294bb;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+  
+form.example button:hover {
+    background: #800080;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fa{
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale}
+
+fa-search:before{
+    content:"\f002"
+}

@@ -2,20 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PREVIA</title>
-        <!--<link rel="sortcut icon" href="./img/icone.png" type="image/x-icon" />; COLOCAR LOGO AQUI -->
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/headerFooter.css">
-        <link rel="stylesheet" href="./css/whatsapp.css">
+        <title>ePrivilegeCAR</title>
+        <link rel="sortcut icon" href="./imagemnew/imgLogos/eprivilegecar.png" type="image/x-icon">
+        <link rel="stylesheet" href="./cssnew/index.css">
+        <link rel="stylesheet" href="./cssnew/headerFooter.css">
+        <link rel="stylesheet" href="./cssnew/whatsapp.css">
+
+        <!-- TAG INICIO -->
+            <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />
+            <link rel="canonical" href="https://eprivilegecar.com" />
+            <meta property="og:locale" content="pt_PT"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="ePRIVILÈGE CAR - Concessionária digital" />
+            <meta property="og:description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro; Compre seu carro; Compre carro; Venda carro; Carro barato; Melhor carro;" />
+            <meta property="og:url" content="https://eprivilegecar.com" />
+            <meta property="og:site_name" content="ePRIVILÈGE CAR" />
+        <!-- TAG FIM-->
     </head>
 
     <body style="margin:0px">
     
-        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="./imagem/imgLogos/whatsapp.png" alt=""></i> </a>
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="./imagemnew/imgLogos/whatsapp.png" alt=""></i> </a>
 
 
         <div class="cab">
-            <p class="pcab"><a class="cabHover" href="#"><b>ePrivilège CAR</b></a> <a class="cabHover" href="">Seminovos</a> <a class="cabHover" href="">Venda seu carro</a> <a class="cabHover" href="">Quem somos</a></p>
+            <p class="pcab"><a class="cabHover" href="./default.php"><b>ePrivilège CAR</b></a> <a class="cabHover" href="./paginas/comprar.php">Seminovos</a> <a class="cabHover" href="./paginas/vender.php">Venda seu carro</a> <a class="cabHover" href="./paginas/01quemsomos.php">Quem somos</a></p>
         </div>
 
         <div class="inicio">
@@ -26,13 +37,13 @@
                         livre-se de riscos, <br>
                         tudo sem burocracia! <br>
 
-                        <a class="botINI2" href="">Venda seu carro</a> <br>
-                        <a class="botINI" href="">Compre seu carro</a>
+                        <a class="botINI2" href="./paginas/vender.php">Venda seu carro</a> <br>
+                        <a class="botINI" href="./paginas/comprar.php">Compre seu carro</a>
                     </h1>
                 </div>
             </div>
             <div class="iniImg">
-                <img  class="imagemINI" src="./imagem/carros/volvofrente.png" alt="">
+                <img  class="imagemINI" src="./imagemnew/carros/volvofrente.png" alt="">
             </div>
         </div>
 
@@ -43,7 +54,7 @@
                         Seminovos, <br>
                         <span style="color: #ff4700;">Sem surpresas indesejadas.</span>
                     </h1>
-                    <iframe src="https://www.youtube.com/embed/3P4-9mz7-ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/watch?v=fCcWPzkal7A&ab_channel=ePRIVIL%C3%88GECAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="textoCompre">
@@ -58,14 +69,14 @@
                         <li class="compreLI">Acompanhamento durante todo o processo.</li> <br>
                         <li class="compreLI">Entregamos na sua casa.</li> <br>
                     </ul>  
-                    <a href=""><button class="botaoCompra">Compre seu carro</button></a>
+                    <a href="./paginas/comprar.php"><button class="botaoCompra">Compre seu carro</button></a>
                 </div>
             </div>
         </div>
 
         <div class="venda">
             <div class="vendaEsquerda">
-                <div style="width: 600px; float:right; margin-left:20px">
+                <div class="blocotxtvenda">
                     <h1 style="margin-left: 15px;">
                         <span class="vendaCor" style="font-size: 40px;"> Venda seu carro, </span><br>
                         <span>vamos até você para comprar seu carro!</span> 
@@ -77,24 +88,25 @@
                         <li class="vendaLI">Avaliamos seu carro em sua casa.</li>
                         <li class="vendaLI">Entregamos na sua casa.</li>
                     </ul> 
-                    <a href=""><button class="botaoVenda">Venda seu carro</button></a>
+                    <a href="./paginas/vender.php"><button class="botaoVenda">Venda seu carro</button></a>
                     
                 </div>
             </div>
             <div class="vendaDireita">
-                <img class="imgVenda" style="max-width: 70%;"  src="./imagem/carros/camaro.png" alt="">
+                <img class="imgVenda" style="max-width: 70%;"  src="./imagemnew/carros/camaro.png" alt="">
             </div>
         </div>
+        
 
-
-
+<hr style="width: 99%; color:#00002ed7; margin:0px; ">
+<!--
         <h1 style="max-width: 100%; margin:0%; padding:2%; text-align:center; background-color:#00002ed7; color:white; " > <span class="vendaCor">Nossas avaliações</span></h1>
         <div class="coment">
             <div class="coment">
                <div class="mySlides">
                <div class="cEsquerda">
                     <div class="ceFoto">
-                        <img src="./imagem/comentarios/img1.png" alt="Homem">
+                        <img src="./imagemnew/comentarios/img1.png" alt="Homem">
                     </div>
                     <div class="cetxt">
                         <h1 class="h1ce1">
@@ -111,7 +123,7 @@
                 </div>
                 <div class="cDireita">
                     <div class="ceFoto">
-                        <img src="./imagem/comentarios/img2.png" alt="Homem">
+                        <img src="./imagemnew/comentarios/img2.png" alt="Homem">
                     </div>
                     <div class="cetxt">
                         <h1 class="h1ce1">
@@ -133,7 +145,7 @@
                 <div class="mySlides">
                 <div class="cEsquerda">
                     <div class="ceFoto">
-                        <img src="./imagem/comentarios/img3.png" alt="Homem">
+                        <img src="./imagemnew/comentarios/img3.png" alt="Homem">
                     </div>
                     <div class="cetxt">
                         <h1 class="h1ce1">
@@ -150,7 +162,7 @@
                 </div>
                 <div class="cDireita">
                     <div class="ceFoto">
-                        <img src="./imagem/comentarios/img4.png" alt="Homem">
+                        <img src="./imagemnew/comentarios/img4.png" alt="Homem">
                     </div>
                     <div class="cetxt">
                         <h1 class="h1ce1">
@@ -191,7 +203,7 @@
                 setTimeout(showSlides, 1000); // Change image every 2 seconds
                 }
             </script>
-        </div>
+        </div>-->
 
         <div class="perguntas">
             <h1 class="vendaCor" style="text-align: center; margin-top:0%">Perguntas frequentes</h1>
@@ -326,14 +338,14 @@
         </div>
 
         <div class="rodape">
-            <h1 class="h1rodape" style="padding: 5px 0px 0px 5px;"><a class="arodape1" href="">Atendimento 24 horas por dia</a></h1>
+            <h1 class="h1rodape" style="padding: 5px 0px 0px 5px;"><a class="arodape1" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!">Atendimento 24 horas por dia</a></h1>
             <div class="imgCentro">
-                <a href=""><img class="imgrodape" src="./imagem/imgLogos/facebook.png" alt="Facebook"></a>
-                <a href=""><img class="imgrodape" src="./imagem/imgLogos/linkedin.png" alt="Linkedin"></a>
-                <a href=""><img class="imgrodape" src="./imagem/imgLogos/instagram.png" alt="Instagram"></a>
-                <a href=""><img class="imgrodape" src="./imagem/imgLogos/whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.facebook.com/eprivilegecar/"><img class="imgrodape" src="./imagemnew/imgLogos/facebook.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/company/eprivilegecar/about/"><img class="imgrodape" src="./imagemnew/imgLogos/linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/eprivilegecar/"><img class="imgrodape" src="./imagemnew/imgLogos/instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!"><img class="imgrodape" src="./imagemnew/imgLogos/whatsapp.png" alt="Whatsapp"></a>
             </div>
-            <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="">Compre seu carro</a> <a class="aRodape" href="">Venda seu carro</a>  <a class="aRodape" href="">Contato</a> <a class="aRodape" href="">Política do site</a></h1>
+            <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="./paginas/comprar.php">Compre seu carro</a> <a class="aRodape" href="./paginas/vender.php">Venda seu carro</a>  <a class="aRodape" href="./paginas/05contatos.php">Contato</a> <a class="aRodape" href="./paginas/06politicadosite.php">Política do site</a></h1>
             <h1 style="text-align: center; font-size:15px; margin:0px;">@ePrivilegeCAR</h1>
         </div>
     </body>

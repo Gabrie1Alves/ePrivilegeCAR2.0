@@ -1,0 +1,36 @@
+.paleta{
+    color:black;
+    color:#010256;
+    color:#246fa7;
+    color:rgb(155, 30, 172);
+    color:white;
+}
+
+.comentPI{
+    width: 30%;
+    background-color: white;
+    border-radius: 14px;
+    display: inline-block;
+    
+}
+.comentN{
+    text-align: center;
+    font-size: 25px;
+    padding:0px ;
+    margin: 0px;
+    color: black;
+}
+.comentC{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding-top: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+/*-------------------------------------- slide*/
+
+.slidesComent {
+    display:none;
+}
