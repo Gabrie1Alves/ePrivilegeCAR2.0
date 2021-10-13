@@ -1,2 +1,1 @@
-<a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
-<!--https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!-->
+<a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20quero%20marcar%20uma%20vistoria!" target="_blank"> <img class="logoWhats" src="../imagemnew/imgLogos/whatsapp.png" alt=""></i> </a>

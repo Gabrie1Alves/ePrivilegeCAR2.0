@@ -10,7 +10,11 @@
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/formulario.css">
         <link rel="stylesheet" href="../css/login.css">
-        <link rel="stylesheet" href="../css/whats.css">
+        
+        
+
+        <link rel="stylesheet" href="../cssnew/whatsapp.css">
+
 
         <!-- TAG INICIO -->
         <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />

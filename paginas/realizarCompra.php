@@ -8,8 +8,14 @@
         <link rel="stylesheet" href="../css/rodape.css">
         <link rel="stylesheet" href="../css/formulario.css">
         <link rel="stylesheet" href="../css/comprar.css">
-        <link rel="stylesheet" href="../css/whats.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
+
+        <link rel="stylesheet" href="../cssnew/whatsapp.css">
+
 
         <script type="text/javascript" src="../javascript/validacoes.js"></script>
 

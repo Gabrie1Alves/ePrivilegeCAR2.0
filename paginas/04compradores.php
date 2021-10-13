@@ -10,7 +10,11 @@
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/formulario.css">
         <link rel="stylesheet" href="../css/infosrodape.css">
-        <link rel="stylesheet" href="../css/whats.css">
+        
+        
+
+        <link rel="stylesheet" href="../cssnew/whatsapp.css">
+
 
         <style>
             .buttonCompradores {

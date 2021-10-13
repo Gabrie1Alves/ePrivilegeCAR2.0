@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./cssnew/index.css">
         <link rel="stylesheet" href="./cssnew/headerFooter.css">
         <link rel="stylesheet" href="./cssnew/whatsapp.css">
+        <link rel="stylesheet" href="./cssnew/popup.css">
 
         <!-- TAG INICIO -->
             <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />
@@ -26,7 +27,7 @@
 
 
         <div class="cab">
-            <p class="pcab"><a class="cabHover" href="./default.php"><b>ePrivilège CAR</b></a> <a class="cabHover" href="./paginas/comprar.php">Seminovos</a> <a class="cabHover" href="./paginas/vender.php">Venda seu carro</a> <a class="cabHover" href="./paginas/01quemsomos.php">Quem somos</a></p>
+            <p class="pcab"><a class="cabHover" href="./default.php"><b> ePrivilège CAR </b></a> <a class="cabHover" href="./paginas/comprar.php">Seminovos</a> <a class="cabHover" href="./paginas/vender.php">Venda seu carro</a> <a class="cabHover" href="./paginas/01quemsomos.php">Quem somos</a></p>
         </div>
 
         <div class="inicio">
@@ -54,7 +55,7 @@
                         Seminovos, <br>
                         <span style="color: #ff4700;">Sem surpresas indesejadas.</span>
                     </h1>
-                    <iframe src="https://www.youtube.com/watch?v=fCcWPzkal7A&ab_channel=ePRIVIL%C3%88GECAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/fCcWPzkal7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="textoCompre">
@@ -94,6 +95,7 @@
             </div>
             <div class="vendaDireita">
                 <img class="imgVenda" style="max-width: 70%;"  src="./imagemnew/carros/camaro.png" alt="">
+                <img class="imgVenda1" style="max-width: 100%;"  src="./imagemnew/carros/mustang.png" alt="">
             </div>
         </div>
         
@@ -348,5 +350,42 @@
             <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="./paginas/comprar.php">Compre seu carro</a> <a class="aRodape" href="./paginas/vender.php">Venda seu carro</a>  <a class="aRodape" href="./paginas/05contatos.php">Contato</a> <a class="aRodape" href="./paginas/06politicadosite.php">Política do site</a></h1>
             <h1 style="text-align: center; font-size:15px; margin:0px;">@ePrivilegeCAR</h1>
         </div>
+
+
+        <div id="modal-promocao" class="modal-container">
+            <div class="modal">
+                <button class="fechar">x</button>
+                <h3 style="font-size: 24px;">Cadastre-se para receber novidades no seu email!</h3>
+
+                <form action="">
+                    <input class="inpuxIndex" type="text" placeholder="email">
+                    <input class="botIndexPopUp" type="button" value="Cadastrar">
+                </form>
+
+            </div>
+        </div>
+        <script>
+            function iniciaModal(modalID){
+                if(localStorage.fechaModal !== modalID){
+                    const modal = document.getElementById(modalID);
+                    if(modal){
+                        modal.classList.add('mostrar');
+                        modal.addEventListener('click', (e) => {
+                            if(e.target.id == modalID || e.target.className == 'fechar'){
+                                modal.classList.remove('mostrar');
+                                localStorage.fechaModal = modalID;
+                            }
+                        });
+                    }
+                }
+                
+            }
+
+            document.addEventListener('scroll', () => {
+                if(window.pageYOffset > 100){
+                    iniciaModal('modal-promocao');
+                }
+            })
+        </script>
     </body>
 </html>

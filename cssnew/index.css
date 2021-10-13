@@ -213,6 +213,11 @@ iframe{
     float:right; 
     margin-left:20px
 }
+.imgVenda1{
+    display: none;
+    float: right;
+    margin-top: 250px;
+}
 
 @media (max-width:1300px) {
     .blocotxtvenda{
@@ -220,17 +225,25 @@ iframe{
         margin: 0% 15% 0% 15%;
     }
     .vendaDireita{
-        display: none;
-        width: 0;
+        width: 30%;
     }
     .vendaEsquerda{
-        width: 100%;
+        width: 70%;
     }
     .venda{
-        height: 650px;
+        height: 550px;
     }
     .vendaEsquerda{
-        height: 650px;
+        height: 550px;
+    }
+    .vendaDireita{
+        height: 550px;
+    }
+    .imgVenda{
+        display: none;
+    }
+    .imgVenda1{
+        display: block;
     }
 }
 /******************COMENTARIOS************************************/

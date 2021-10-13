@@ -8,7 +8,12 @@
         <link rel="stylesheet" href="../css/rodape.css">
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../css/infosrodape.css">
-        <link rel="stylesheet" href="../css/whats.css">
+
+        
+
+
+        <link rel="stylesheet" href="../cssnew/whatsapp.css">
+
     
 
         <script type="text/javascript" src="../javascript/validacoes.js"></script>
