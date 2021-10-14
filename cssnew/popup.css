@@ -4,7 +4,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .97);
     z-index: 2000;
     display: none;
     justify-content: center; /*horizontal*/
@@ -12,14 +12,21 @@
 }
 
 .modal{
-    background-color: black;
-    width: 60%;
+    background-image: linear-gradient(135deg, #ff4700, rgb(207, 49, 228), black);
+    width: 700px;
     min-width: 300px;
-    padding: 40px;
-    border: 3px solid #ff4700;
+    padding: 40px 0px 0px 40px;
     border-radius: 14px;
     position: relative;
     color: white;
+}
+.modalEsquerda{
+    display: inline-block;
+    width: 60%;
+}
+.modalDir{
+    float: right;
+    width: 39%;
 }
 @keyframes modal {
     from{
@@ -77,3 +84,4 @@
     background-color:#ff4700;
     color: white;
 }
+

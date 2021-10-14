@@ -357,13 +357,18 @@
         <div id="modal-promocao" class="modal-container">
             <div class="modal">
                 <button class="fechar">x</button>
-                <h3 style="font-size: 24px;">Cadastre-se para receber novidades no seu email!</h3>
-
-                <form action="">
-                    <input class="inpuxIndex" type="text" placeholder="email">
-                    <input class="botIndexPopUp" type="button" value="Cadastrar">
-                </form>
-
+                <div class="modalEsquerda">
+                    <h3 style="font-size: 24px; color:black">Cadastre-se para agendar uma vistoria!</h3>
+                    <form action="">
+                        <input class="inpuxIndex" type="email" placeholder="exemple@email.com"> <br> <br>
+                        <input class="inpuxIndex" type="text" placeholder="ex: Joao da Silva"> <br> <br>
+                        <input class="inpuxIndex" type="text" placeholder="ex: 41 9 00000000"> <br> <br>
+                        <input class="botIndexPopUp" type="button" value="Cadastrar">
+                    </form>
+                </div>
+                <div class="modalDir">
+                    <img src="./imagemnew/chaveDoCarro/1mulherChave.png" alt="">
+                </div>
             </div>
         </div>
         <script>
