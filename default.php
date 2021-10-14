@@ -100,7 +100,9 @@
         </div>
         
 
-<hr style="width: 99%; color:#00002ed7; margin:0px; ">
+        <div class="comentarios">
+
+        </div>
 <!--
         <h1 style="max-width: 100%; margin:0%; padding:2%; text-align:center; background-color:#00002ed7; color:white; " > <span class="vendaCor">Nossas avaliações</span></h1>
         <div class="coment">
