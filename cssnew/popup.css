@@ -4,7 +4,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, .97);
+    background-color: rgba(0, 0, 0, .1);
     z-index: 2000;
     display: none;
     justify-content: center; /*horizontal*/
@@ -12,7 +12,7 @@
 }
 
 .modal{
-    background-image: linear-gradient(135deg, #ff4700, rgb(207, 49, 228), black);
+    background-image: linear-gradient(135deg, #ff4700, rgb(207, 49, 228), transparent);
     width: 700px;
     min-width: 300px;
     padding: 40px 0px 0px 40px;

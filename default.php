@@ -94,8 +94,8 @@
                 </div>
             </div>
             <div class="vendaDireita">
-                <img class="imgVenda" style="max-width: 70%;"  src="./imagemnew/carros/camaro.png" alt="">
-                <img class="imgVenda1" style="max-width: 100%;"  src="./imagemnew/carros/mustang.png" alt="">
+                <img class="imgVenda"  src="./imagemnew/carros/camaro.png" alt="">
+                <img class="imgVenda1"  src="./imagemnew/carros/jeepFrenteSemFundo.jpg" alt="">
             </div>
         </div>
         

@@ -182,7 +182,7 @@ iframe{
     color: transparent;
 }
 .imgVenda{
-    width: 90%; 
+    width: 60%; 
     margin-top: 20px;
 }
 .botaoVenda{
@@ -208,8 +208,12 @@ iframe{
 .imgVenda1{
     display: none;
     float: right;
-    margin-top: 10px;
 }
+/*@media (max-width:1450px) {
+    .imgVenda{
+        width: 80%;
+    }
+}*/
 
 @media (max-width:1300px) {
     .blocotxtvenda{
@@ -217,18 +221,54 @@ iframe{
         margin-left: 2%;
     }
     .vendaDireita{
-        width: calc(100vw - 668px);
+        width: 40%;
     }
     .vendaEsquerda{
-        width: 650px;
+        width: 60%;
     }
     .imgVenda{
         display: none;
     }
     .imgVenda1{
         display: block;
+        max-width: 75%;
+        height: 100%;
     }
 }
+@media (max-width:960px) {
+    .imgVenda1{
+        max-width: 95%;
+    }
+}
+@media (max-width:800px) {
+    .imgVenda1{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+}
+@media (max-width:670px) {
+    .imgVenda1{
+        max-width: 100%;
+        margin-top: 30%;
+    }
+}
+@media (max-width:550px) {
+    .imgVenda1{
+        max-width: 100%;
+        margin-top: 50%;
+    }
+}
+/*@media (max-width:1050px) {
+    .imgVenda1{
+        margin-top: 20px;
+    }
+}
+@media (max-width:950px) {
+    .imgVenda1{
+        width: 100%;
+        margin-top: 60px;
+    }
+}*/
 /******************COMENTARIOS************************************
 .comentarios{
     width: 100vw;
