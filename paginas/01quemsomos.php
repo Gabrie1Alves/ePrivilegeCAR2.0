@@ -3,20 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>ePrivilège CAR</title>
-        <link rel="stylesheet" href="../css/cabecalho.css">
-        <link rel="stylesheet" href="../css/buscas.css">
-        <link rel="stylesheet" href="../css/rodape.css">
-        <link rel="stylesheet" href="../css/index.css">
-        <link rel="stylesheet" href="../css/infosrodape.css">
-
-        
-
-
+        <link rel="stylesheet" href="../cssnew/headerFooter.css">
         <link rel="stylesheet" href="../cssnew/whatsapp.css">
+        <link rel="stylesheet" href="../cssnew/quemsomos.css">
 
-    
-
-        <script type="text/javascript" src="../javascript/validacoes.js"></script>
 
         <!-- TAG INICIO -->
         <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />
@@ -31,128 +21,52 @@
         <!-- TAG FIM-->
     </head>
     <body>
+        <?php require "./headnew.php" ?>
+        <?php require "./whatsapp.php" ?>
 
-        <?php require "./head.php" ?>
-        <?php require "./whatsapp.php" ?><!--
-        <div class="quemsomos">
-            <p >
-                <h1 style="font-size: 25px;"><b>Quem somos?</b> <img class="imgQuemSomos" src="../imagens/Logotipo2.png" alt="logoePrivilègeCAR"></h1>
-                <h3 style="font-size: 18px; margin-left:100px;text-align: justify;">A ePRIVILÈGE CAR faz a intermediação de veículos através de plataformas digitais tornando a 
-                    comercialização de veículos ágil, transparente e com responsabilidade para seus clientes.</h3>
+        <div class="parte1">
+            <div class="parte1esquerda">
+                <h1 class="parte1H1">Com paixão pelos carros e pelas pessoas geramos riqueza para nossos clientes</h1>
+            </div>
+            <div class="parte1direita">
+                <img class="parte1img" src="../imagemnew/quemSomosImgs/urusSemFundo.png" alt="Carro Urus">
+            </div>
+        </div>
+        <div class="parte2">
+            <div class="parte2esquerda">
+                <img class="parte2img" src="../imagemnew/quemSomosImgs/mulherSemFundo.png" alt="Mulher">
+            </div>
+            <div class="parte2direita">
+                <h1 class="parte2H1">Quem somos</h1>
+                <h2 class="parte2H2">
+                Nós da ePRIVILÈGE CAR trabalhamos com a comercialização e a intermediação de veículos, sempre em busca
+                das melhores soluções para nossos clientes. Após atuar por mais de 21 anos na indústria
+                automotiva, surgiu o desejo de unir forças e habilidades, para solucionar os problemas que nossos clientes 
+                possuem na venda e na compra de veículos semi-novos no mercado brasileiro. Assim nossa equipe conciliou as principais práticas dessas áreas, 
+                trazendo uma estrutura consolidada de mercado, atendendo o cliente de forma precisa, simplificada e transparente. <br>
                 
-                <p class="pquemsomos">
-                <h2 style="font-size: 20px;"><b>MISSÃO:</b></h2>
-                <h3 style="font-size: 18px; margin-left:100px; text-align: justify;">Prestar o melhor serviço de corretagem do nosso país. Buscando excelência no relacionamento com 
-                    cliente e gerando valor para nossos cotistas, clientes e colaboradores.</h3>
-
-                <h2 style="font-size: 20px;"><b>VISÃO:</b></h2>
-                <h3 style="font-size: 18px; margin-left:100px;text-align: justify;">Gerar soluções para a comercialização e prestação de serviço diferenciados com qualidade, 
-                agilidade e transparência para os clientes, e resultando em lucro para nossos cotistas e clientes.</h3>
-
-                <h2 style="font-size: 20px;"><b>VALORES:</b></h2>
-                <h3 style="font-size: 18px; margin-left:100px;text-align: justify;">Valorizar as pessoas e o trabalho com responsabilidade, integridade e paixão.</h3>
-                </p>  
-            </p>
-        </div>
-        <div class="fotosetxt">
-            <div style="width: 23%; display:inline-block;align-items: top;">
-                <img class="fotosquemSomos" src="../imagens/quemSomos/pablo.jpg" alt="Pablo">
+                Temos muito orgulho de reunir profissionais altamente qualificados, para oferecer a melhor 
+                opção para nossos clientes. 
+                </h2>
             </div>
-            <div style="width: 23%; display:inline-block;align-items: top;">
-                <img class="fotosquemSomos" src="../imagens/quemSomos/matheus.jpg" alt="Matheus">
+        </div>
+        <div class="parte3">
+            <div class="parte3esquerda">
+                <h1 class="parte3H1">Missão</h1>
+                <h2 class="parte3H2">
+                    Nosso trabalho é focado na excelência e no relacionamento com cliente, nossa meta é gerar riqueza para nossos acionistas, clientes e colaboradores. <br>
+                    Nós pensamos em nossos clientes com um relacionamento próximo, para entender suas necessidades e soluciona-las. Temos como objetivo, transformar a 
+                    comercialização de veículos em uma experiencia agradável, desta forma se perpetuando na preferência dos nossos clientes. <br>
+                    Para transformar nossos objetivos em riquezas, nós acreditamos na valorização das pessoas e o 
+                    trabalho com responsabilidade, integridade e paixão.
+                </h2>
+
             </div>
-            <div style="width: 23%; display:inline-block;align-items: top;">
-                <img class="fotosquemSomos" src="../imagens/quemSomos/gabriel.jpg" alt="Gabriel">
-            </div> 
-        </div>
-        <div style="width:21%; display:inline-block; margin-left:15%; text-align: justify;">
-            <p>Pablo Mendonça</p>
-            <p>Engenheiro, pós-graduado em Contabilidade e Finanças, possui mais de 20 anos de experiência no setor industrial. 
-                    Ampla vivência em desenvolvimento de projetos (Lean Manufacturing, novos produtos e processos).</p>
-        </div>
-        <div style="width:21%; display:inline-block; margin-left:3%; position:absolute; text-align: justify;">
-            <p>Matheus Butzke</p>
-            <p>Graduando em Publicidade e Propaganda, iniciando sua carreira profissional na ePrivilegeCAR como estagiário
-                    de marketing digital.</p>
-        </div>
-        <div style="width:21%; display:inline-block; position:absolute; margin-left:26%; text-align: justify;">
-            <p>Gabriel Alves</p>
-            <p>Graduando em Sistemas de Informação, no inicio de sua carreira de desenvolvedor na ePrivilegeCAR atuando
-                    como estágiário em Desenvolvimento de Software.</p>
-        </div>
--->     <div class="textoAzul">
-            <h1 style="text-align: center;">Quem somos</h1>
-
-            <h3 style="text-align: justify; ">A ePRIVILÈGE CAR faz a intermediação de veículos através de plataformas digitais tornando a 
-                    comercialização de veículos ágil, transparente e com responsabilidade para seus clientes.
-            </h3>
-        </div>
-        <div class="textoBranco">
-            <h1 style="text-align: center;">Missão</h1>
-
-            <h3 style="text-align: justify; ">Prestar o melhor serviço de corretagem do nosso país. Buscando excelência no relacionamento com 
-                    cliente e gerando valor para nossos cotistas, clientes e colaboradores.
-            </h3>
-        </div>
-
-        <div class="textoAzul">
-            <h1 style="text-align: center;">Visão</h1>
-
-            <h3 style="text-align: justify; ">Gerar soluções para a comercialização e prestação de serviço diferenciados com qualidade, 
-                agilidade e transparência para os clientes, e resultando em lucro para nossos cotistas e clientes.
-            </h3>
-        </div>
-        <div class="textoBranco">
-            <h1 style="text-align: center;">Valores</h1>
-
-            <h3 style="text-align: justify; ">Valorizar as pessoas e o trabalho com responsabilidade, integridade e paixão.
-            </h3>
-        </div>
-
-        <div class="textoAzul">
-            <h1 style="text-align: center;">Executivos</h1>
-            <div class="fotosetxt">
-                <div style="width: 23%; display:inline-block;align-items: top;">
-                    <img class="fotosquemSomos" src="../imagens/quemSomos/PabloColorido.jpg" alt="Pablo">
-                </div>
-                <div style="width: 23%; display:inline-block;align-items: top;">
-                    <img class="fotosquemSomos" src="../imagens/quemSomos/matheusColorido.jpg" alt="Matheus">
-                </div>
-                <div style="width: 23%; display:inline-block;align-items: top;">
-                    <img class="fotosquemSomos" src="../imagens/quemSomos/gabrielColorido.jpg" alt="Gabriel">
-                </div> 
-            </div>
-            <div style="width:21%; display:inline-block; margin-left:15%; text-align: justify;">
-                <div style="text-align: center;">
-                    <a target="_blank" href="https://www.linkedin.com/in/pablo-mendon%C3%A7a-8438a457/"><img src="../imagens/linkedinOnColors.png" alt="Linkedin"></a>
-                    <!--<a href=""><img src="../imagens/emailOnColors.png" alt="Email"></a>-->
-                </div>
-                <p style="text-align: center;">Pablo Mendonça</p>
-                <p>Engenheiro, pós-graduado em Contabilidade e Finanças, possui mais de 20 anos de experiência no setor industrial. 
-                        Ampla vivência em desenvolvimento de projetos (Lean Manufacturing, novos produtos e processos).</p>
-            </div>
-            <div style="width:20%; display:inline-block; margin-left:2.2%; position:absolute; text-align: justify;">
-                <div style="text-align: center;">
-                    <a target="_blank"  href="https://www.linkedin.com/in/matheus-butzke-sobaranski-160320/"><img src="../imagens/linkedinOnColors.png" alt="Linkedin"></a>
-                    <!--<a href=""><img src="../imagens/emailOnColors.png" alt="Email"></a>-->
-                </div>
-                <p style="text-align: center;">Matheus Butzke</p>
-                <p>Graduando em Publicidade e Propaganda, iniciando sua carreira profissional na ePrivilegeCAR.</p>
-            </div>
-            <div style="width:21%; display:inline-block; position:absolute; margin-left:24%; text-align: justify;">
-                <div style="text-align: center;">
-                    <a target="_blank"  href="https://www.linkedin.com/in/gabriel-alves-resende-rocha/"><img src="../imagens/linkedinOnColors.png" alt="Linkedin"></a>
-                    <!--<a href=""><img src="../imagens/emailOnColors.png" alt="Email"></a>-->
-                </div>
-                <p style="text-align: center;">Gabriel Alves</p>
-                <p>Graduando em Sistemas de Informação, no inicio de sua carreira de desenvolvedor de Software na ePrivilegeCAR.</p>
+            <div class="parte3direita">
+                <img class="parte3img" src="../imagemnew/quemSomosImgs/cupraSemFundo.png" alt="Carro Cupra">
             </div>
         </div>
 
-
-
-        
-        <?php require "./footer.php" ?>
-
+        <?php require "./footernew.php"?>
     </body>
 </html>

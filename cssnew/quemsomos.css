@@ -1,0 +1,213 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*MAX WIDTH 1000 PX*/
+/***********************############################## PARTE 1 ##########################******************/
+.parte1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(239, 241, 245);
+}
+.parte1esquerda{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+}
+.parte1H1{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+.parte1direita{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+.parte1img{
+    height: 400px;
+    margin-left: 10px;
+}
+/*imagem da parte 1*/
+@media (max-width:1050px) {
+    .parte1img{
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:790px) {
+    .parte1img{
+        height: 250px;
+        margin-top: 75px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:650px) {
+    .parte1img{
+        height: 230px;
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+}
+/*texto da parte 1*/
+@media (max-width:1590px) {
+    .parte1H1{
+        margin-top: 120px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media (max-width:1360px) {
+    .parte1H1{
+        margin: 100px 10% 0% 10%;
+    }
+}
+@media (max-width:930px) {
+    .parte1H1{
+        margin: 80px 5% 0% 5%;
+    }
+}
+@media (max-width:675px) {
+    .parte1H1{
+        margin: 60px 5% 0% 5%;
+    }
+}
+/*#####################  PARTE 2  #############################*/
+.parte2{
+    width: 100%;
+    height: 500px;
+    background-color: #00002ed7;
+}
+.parte2esquerda{
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+}
+.parte2direita{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+.parte2img{
+    margin-top: 33px;
+    margin-left: 20%;
+}
+@media (max-width:810px) {
+    .parte2img{
+        margin-left: 5%;
+    }
+}
+@media (max-width:680px) {
+    .parte2img{
+        margin-left: 0%;
+    }
+}
+.parte2H1{
+    text-align: center;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+.parte2H2{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+@media (max-width:1000px) {
+    .parte2{
+        height: 520px;
+    }
+    .parte2esquerda{
+        width: 350px;
+        height: 520px;
+    }
+    .parte2img{
+        margin: 52px 0px 0px 0px;
+    }
+    .parte2direita{
+        width: calc(100% - 350px);
+        height: 520px;
+    }
+    .parte2H2{
+        padding: 5px 40px 5px 5px;
+        font-size: 21px;
+    }
+}
+
+/**************************************  PARTE 3  *********************************************************/
+.parte3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(239, 241, 245);
+}
+.parte3esquerda{
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+}
+.parte3direita{
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+.parte3H1{
+    text-align: center;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+.parte3H2{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 8% 0 8%;
+
+}
+.parte3img{
+    height: 400px;
+}
+@media (max-width:1270px) {
+    .parte3H2{
+        padding: 0 0 0 20px;
+        font-size: 20px;
+    }
+    .parte3img{
+        height: 300px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:1000px) {
+    .parte3{
+        height: 550px;
+    }
+    .parte3direita{
+        height: 550px;
+    }
+    .parte3esquerda{
+        height: 550px;
+    }
+
+    .parte3H2{
+        padding: 0 0 0 10px;
+        font-size: 21px;
+        margin: 4%;
+    }
+    .parte3img{
+        height: 270px;
+        margin-top: 140px;
+    }
+}
