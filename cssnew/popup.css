@@ -65,7 +65,7 @@
 
 .inpuxIndex{
     width: 60%;
-    height: 30px;
+    height: 40px;
     border: 2px #ff4700 solid ;
     border-radius: 10px;
 }
@@ -84,4 +84,3 @@
     background-color:#ff4700;
     color: white;
 }
-

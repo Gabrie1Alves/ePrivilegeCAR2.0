@@ -14,7 +14,8 @@
         $numero = $_POST["num"];
         $complemento = $_POST["comp"];
         $recebeEmail = $_POST["recebeEmail"];
-        $cond = $_POST["condicoes"];
+        $cond = $_POST["cond"];
+
 
         #verifica tamanho e condições
         if($cond != 'on'){
@@ -162,7 +163,7 @@
             mysqli_close($conn);#fecha o banco
         }
 
-        
+
         ?>
 
         

@@ -43,7 +43,7 @@
             <div>
                 <h1>Peencha os requisitos para vender seu carro, em breve entraremos em contato com você.</h1>
                 <div class="formulario">
-                    <form form action="posvender.php" method="post">
+                    <form form action="posvender.php" method="POST">
                     <label for="fname"><b>Informações do usuário</b></label> <br>
                       <label for="name"> <br> Nome Completo:</label>
                       <input type="text" id="name" name="name" minlength="7" required placeholder="ex: João da Silva Medeiros">
@@ -87,7 +87,7 @@
                       </label>
                       <br>
                       <label for="condicoes">
-                        <input type="checkbox" id="condicao" name="condicoes"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
+                        <input type="checkbox" checked id="cond" name="cond"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
                       </label>
                       
                     <a href="./posvender.php" ><input type="submit"   value="Enviar"></a>
