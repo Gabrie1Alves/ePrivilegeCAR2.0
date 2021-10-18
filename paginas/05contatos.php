@@ -3,22 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>ePrivilège CAR</title>
-        <link rel="stylesheet" href="../css/cabecalho.css">
-        <link rel="stylesheet" href="../css/buscas.css">
-        <link rel="stylesheet" href="../css/comoFunciona.css">
-        <link rel="stylesheet" href="../css/rodape.css">
-        <link rel="stylesheet" href="../css/index.css">
-        <link rel="stylesheet" href="../css/formulario.css">
-        <link rel="stylesheet" href="../css/infosrodape.css">
-        
-        
-
-
+        <link rel="sortcut icon" href="../imagemnew/imgLogos/eprivilegecar.png" type="image/x-icon">
+        <link rel="stylesheet" href="../cssnew/headerFooter.css">
         <link rel="stylesheet" href="../cssnew/whatsapp.css">
+        <link rel="stylesheet" href="../cssnew/contatos.css">
 
-    
-
-        <script type="text/javascript" src="../javascript/validacoes.js"></script>
 
         <!-- TAG INICIO -->
         <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />
@@ -33,32 +22,122 @@
         <!-- TAG FIM-->
     </head>
     <body>
-        <div class="container">
+        <?php require "./headnew.php" ?>
+        <?php require "./whatsapp.php" ?>
 
-            <?php require "./head.php" ?>
-            <?php require "./whatsapp.php" ?>
-            
-        <div class="contato">
-            <h1 style=" font-size:30px;">Contatos</h1>
-            <h2 style="font-size: 24px;">Emails:</h2>
-            <a style="color:white; text-decoration:none; font-size:20px;" href = "mailto: eprivilegecar@gmail.com">contato@eprivilegecar.com</a> <br>
-            <a style="color:white; text-decoration:none; font-size:20px;" href = "mailto: eprivilegecar@gmail.com">tecnologia@eprivilegecar.com</a><br>
-            <a style="color:white; text-decoration:none; font-size:20px;" href = "mailto: eprivilegecar@gmail.com">marketing@eprivilegecar.com</a><br>
+        <div class="parte1">
+            <div class="parte1centro">
+                <h1 class="parte1h1">
+                    Nossas redes sociais:
+                </h1>
+                <!--
+                <a class="parte1a" href="https://www.facebook.com/eprivilegecar/"> <img class="parte1img" src="../imagemnew/imgLogos/facebook.png" alt="Facebook"></a>
+                <a class="parte1a" href="https://www.instagram.com/eprivilegecar/"> <img class="parte1img" src="../imagemnew/imgLogos/instagram.png" alt="Instagram"></a>
+                <a class="parte1a" href="https://www.linkedin.com/company/eprivilegecar/about/"> <img class="parte1img" src="../imagemnew/imgLogos/linkedin.png" alt="Linkedin"></a>
+-->
+                <a href="https://www.instagram.com/eprivilegecar/"><button style="margin-left: 20px;" class="parte1bot">
+                    <div class="parte1botimg">
+                        <img style="height: 40px;" src="../imagemnew/imgLogos/instagram.png" alt="Instagram">
+                    </div>
+                    <div class="parte1bottxt">
+                        Instagram
+                    </div>
+                </button></a>
 
-            <h2 style="font-size: 24px;">Redes sociais:</h2>
-            <div>
-            <a href="https://www.facebook.com/eprivilegecar/"><img style="width: 50px;" src="../imagens/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/eprivilegecar/"><img style="width: 50px;" src="../imagens/instagram.png" alt="Instagram"></a>
-            <a href="https://www.linkedin.com/company/eprivilegecar/about/"><img style="width: 50px;" src="../imagens/linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.facebook.com/eprivilegecar/"><button class="parte1bot">
+                    <div class="parte1botimg">
+                        <img style="height: 40px;" src="../imagemnew/imgLogos/facebook.png" alt="Facebook">
+                    </div>
+                    <div class="parte1bottxt">
+                        Facebook
+                    </div>
+                </button></a>
+                <a href="https://www.linkedin.com/company/eprivilegecar/about/"><button class="parte1bot">
+                <div class="parte1botimg">
+                        <img style="height: 40px;" src="../imagemnew/imgLogos/linkedin.png" alt="Linkedin">
+                    </div>
+                    <div class="parte1bottxt">
+                        Linkedin
+                    </div>
+                </button></a>
             </div>
-            
-
-            <h2 style="font-size: 24px;">Caso queira deixar uma sugestão clique no botão abaixo:</h3>
-            <a href="./00feedback.php"><button class="botMotivos bot2" style="width: 350px;"><b><p style="font-size: 20px; margin:0px; padding:0px;">Deixe seu comentário!</p></b></button></a>
         </div>
-            
-            <?php require "./footer.php" ?>
+        <!--
+        <div class="parte2">
+            <div class="parte2centro">
+                <h1 class="parte1h1">
+                    Faça parte do melhor grupo de repasse do Brasil!
+                </h1>
+                <a class="parte1a" href="https://chat.whatsapp.com/BO7mCFk2aUZAVtlOgAdDll"><img style="margin-left: 325px;" class="parte2img" src="../imagemnew/imgLogos/whatsapp.png" alt="Whatsapp"></a>
+                <a class="parte1a" href="https://www.facebook.com/groups/902469710477170"><img class="parte2img" src="../imagemnew/imgLogos/facebook.png" alt="Facebook"></a>
+
+                <a href=""><button style="margin-left: 175px;" class="parte2bot">
+                    <div class="parte2botimg">
+                        <img style="height: 40px;" src="../imagemnew/imgLogos/whatsapp.png" alt="Whatsapp">
+                    </div>
+                    <div class="parte2bottxt">
+                        Grupo no Whatsapp
+                    </div>
+                </button></a>
+
+                <a href=""><button class="parte2bot">
+                    <div class="parte2botimg">
+                        <img style="height: 40px;" src="../imagemnew/imgLogos/facebook.png" alt="Facebook">
+                    </div>
+                    <div class="parte2bottxt">
+                        Grupo no Facebook
+                    </div>
+                </button></a>
+            </div>
+        </div>
+-->
+        <div class="parte2">
+            <h1 class="parte3h1">
+                Faça parte do melhor grupo de repasse do Brasil!
+            </h1>
+
+            <a class="parte2centralizabot" href="https://chat.whatsapp.com/BO7mCFk2aUZAVtlOgAdDll"><button class="parte2bot">
+                <div class="parte2botimg">
+                    <img style="height: 40px;" src="../imagemnew/imgLogos/whatsapp.png" alt="Whatsapp">
+                </div>
+                <div class="parte2bottxt">
+                    Grupo no Whatsapp
+                </div>
+            </button></a>
+
+            <a href="https://www.facebook.com/groups/902469710477170"><button class="parte2bot">
+                <div class="parte2botimg">
+                    <img style="height: 40px;" src="../imagemnew/imgLogos/facebook.png" alt="facebook">
+                </div>
+                <div class="parte2bottxt">
+                    Grupo no Facebook
+                </div>
+            </button></a>
+
+        </div>
+        <div class="parte3">
+            <div class="parte3centro">
+                <h1 class="parte3h1">Email's para contato:</h1>
+                <h2 class="parte3h3">Email referente a suporte: <a class="parte3a" href="mailto: eprivilegecar@gmail.com">contato@eprivilegecar.com</a></h2>
+                <h2 class="parte3h3">Email referente a marketing: <a class="parte3a" href="mailto: eprivilegecar@gmail.com">marketing@eprivilegecar.com</a></h2>
+                <h2 class="parte3h3" style="padding-bottom: 50px;">Email referente a tecnologia: <a class="parte3a" href="mailto: eprivilegecar@gmail.com">tecnologia@eprivilegecar.com</a></h2>
+            </div>
+        </div>
+        <div class="parte4">
+            <div class="parte4centro">
+                <h1 class="parte3h1">Suporte via Whatsapp:</h1>
+                <a href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!"><button class="parte4bot">
+                    <div class="parte4botimg">
+                        <img style="height: 45px;" src="../imagemnew/imgLogos/whatsapp.png" alt="">
+                    </div>
+                    <div class="parte4bottxt">
+                        Whatsapp
+                    </div>
+                </button></a>
+            </div>
+
         </div>
 
+        <?php require "./footernew.php"?>
     </body>
 </html>
