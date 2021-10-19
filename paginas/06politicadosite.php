@@ -32,7 +32,7 @@
             </h3>
             <h1>Direito dos titulares</h1>
             <h3>Você pode solicitar a confirmação de tratamento dos seus dados, a correção ou remoção/eliminação de seus dados e informações pessoais, relatar eventual uso indevido ou 
-                exercer qualquer direito previsto na Lei n. 13.709/2018 (Lei Geral de Proteção de Dados) entrando em contato por meio do e-mail: <a href = "mailto: eprivilegecar@gmail.com">eprivilegecar@gmail.com</a>, o prazo de 
+                exercer qualquer direito previsto na Lei n. 13.709/2018 (Lei Geral de Proteção de Dados) entrando em contato por meio do e-mail: <a href = "mailto: contato@eprivilegicar.com">contato@eprivilegicar.com</a>, o prazo de 
                 resposta é de até 2 (dois) dias úteis.
             </h3>
             <h1>Segurança da informação</h1>

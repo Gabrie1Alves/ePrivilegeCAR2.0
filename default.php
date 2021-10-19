@@ -55,11 +55,11 @@
                         Seminovos, <br>
                         <span style="color: #ff4700;">Sem surpresas indesejadas.</span>
                     </h1>
-                    <iframe src="https://www.youtube.com/embed/fCcWPzkal7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/QFJbE6lux4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="textoCompre">
-                <div class="textoCompreDentro">
+                <div class="textoCompreDentro" >
                     <h1 class="textoCompreH1">
                         Compre seu carro
                     </h1> 
@@ -103,113 +103,108 @@
         <div class="comentarios">
 
         </div>
-<!--
-        <h1 style="max-width: 100%; margin:0%; padding:2%; text-align:center; background-color:#00002ed7; color:white; " > <span class="vendaCor">Nossas avaliações</span></h1>
+        
+
+        <div class="comentTitulo">
+            <h1 class="comenth1">Nossas avaliações</h1>
+        </div>
         <div class="coment">
-            <div class="coment">
-               <div class="mySlides">
-               <div class="cEsquerda">
-                    <div class="ceFoto">
-                        <img src="./imagemnew/comentarios/img1.png" alt="Homem">
+            <div class="mySlides">
+                <div class="comentEsquerda">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img1.jpg" alt="IMAGEM 1">
                     </div>
-                    <div class="cetxt">
-                        <h1 class="h1ce1">
-                            Joao da silva Martins
-                        </h1>
-                        <h1 class="h1ce2">
-                            08/10/2021
-                        </h1>
-                        <h1 class="h1ce3">
-                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
-                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
-                        </h1>
+                    <div class="comenttxt">
+                        <p class="comentnome">Bryan Carrasqueira Antas</p>
+                        <p class="comentdata">10/08/2021 PR-Curitiba 17:45</p>
+                        <p class="comentfala"> "Tive uma experiência muito boa, um ótimo suporte, sem nenhum tipo de burocracia e sem enrolações!"</p>
                     </div>
                 </div>
-                <div class="cDireita">
-                    <div class="ceFoto">
-                        <img src="./imagemnew/comentarios/img2.png" alt="Homem">
+                <div class="comentDireita">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img2.jpg" alt="IMAGEM 2">
                     </div>
-                    <div class="cetxt">
-                        <h1 class="h1ce1">
-                            Joao da silva Martins
-                        </h1>
-                        <h1 class="h1ce2">
-                            08/10/2021
-                        </h1>
-                        <h1 class="h1ce3">
-                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
-                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
-                        </h1>
+                    <div class="comenttxt">
+                        <p class="comentnome">Marcelino Cardim Valente</p>
+                        <p class="comentdata">12/08/2021 PR-Curitiba 12:27</p>
+                        <p class="comentfala"> "Muito bom! Consegui vender meu carro em menos de 2 dias sem precisar sair de casa! Recomendo!"</p>
                     </div>
-                </div>
-               </div>
-            </div>
-
-            <div class="coment">
-                <div class="mySlides">
-                <div class="cEsquerda">
-                    <div class="ceFoto">
-                        <img src="./imagemnew/comentarios/img3.png" alt="Homem">
-                    </div>
-                    <div class="cetxt">
-                        <h1 class="h1ce1">
-                            Joao da silva Martins
-                        </h1>
-                        <h1 class="h1ce2">
-                            08/10/2021
-                        </h1>
-                        <h1 class="h1ce3">
-                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
-                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
-                        </h1>
-                    </div>
-                </div>
-                <div class="cDireita">
-                    <div class="ceFoto">
-                        <img src="./imagemnew/comentarios/img4.png" alt="Homem">
-                    </div>
-                    <div class="cetxt">
-                        <h1 class="h1ce1">
-                            Joao da silva Martins
-                        </h1>
-                        <h1 class="h1ce2">
-                            08/10/2021
-                        </h1>
-                        <h1 class="h1ce3">
-                            asd asda sd as da sd asdas das d sa d as da sd as d as d as d as d as d as d as d sa d as d as d as d as d a sda sd a d
-                            as d asda sda sd as da sd as d asd sa da sdasdas ads as das da sd asd a 
-                        </h1>
-                    </div>
-                </div>
                 </div>
             </div>
 
+            <div class="mySlides">
+            <div class="comentEsquerda">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img3.jpg" alt="IMAGEM 3">
+                    </div>
+                    <div class="comenttxt">
+                        <p class="comentnome">Jorge Lobo Cruz</p>
+                        <p class="comentdata">17/08/2021 PR-Curitiba 14:52</p>
+                        <p class="comentfala"> "Pensei que teria algum tipo de pegadinha, mas não teve! Vendi meu carro em menos de 48 horas!"</p>
+                    </div>
+                </div>
+                <div class="comentDireita">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img4.jpg" alt="IMAGEM 4">
+                    </div>
+                    <div class="comenttxt">
+                        <p class="comentnome">Matheus Carrasco Talhão</p>
+                        <p class="comentdata">21/08/2021 PR-Curitiba 16:13</p>
+                        <p class="comentfala"> "Foi muito prático e rápido, conseguir realizar tudo direto do meu celular!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides">
+            <div class="comentEsquerda">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img5.jpg" alt="IMAGEM 5">
+                    </div>
+                    <div class="comenttxt">
+                        <p class="comentnome">Anderson Raposo Moreira</p>
+                        <p class="comentdata">27/08/2021 PR-Curitiba 19:41</p>
+                        <p class="comentfala"> "A vistoria foi bem mais rápida e prática do que eu pensava! Recomendo!"</p>
+                    </div>
+                </div>
+                <div class="comentDireita">
+                    <div class="comentimg">
+                        <img src="./imagemnew/comentarios/img6.jpg" alt="IMAGEM 6">
+                    </div>
+                    <div class="comenttxt">
+                        <p class="comentnome">Cristian Valcácer Ramos</p>
+                        <p class="comentdata">04/09/2021 PR-Curitiba 20:27</p>
+                        <p class="comentfala"> "Quando pensei em ir atras de algum documento, já tinham arrumado tudo! Realmente muito rápido!"</p>
+                    </div>
+                </div>
+            </div>
 
 
             <script>
-                var slideIndex = 0;
-                showSlides();
+                var myIndex = 0;
+                carousel();
 
-                function showSlides() {
+                function carousel() {
                 var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
                 }
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}    
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";  
-                dots[slideIndex-1].className += " active";
-                setTimeout(showSlides, 1000); // Change image every 2 seconds
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 8000); // Change image every 2 seconds
                 }
             </script>
-        </div>-->
-
-        
+        </div>
+        <div class="comentAvaliacao">
+            <a href=""><button class="comentbot">
+                <div class="comentAI">
+                    <img style="height: 40px; margin:0px; padding:0px" src="./imagemnew/imgLogos/reclameaqui.png" alt="Reclameaqui">
+                </div>
+                <div class="comentAT">
+                    <p class="comenttxtbot">Deixe sua avaliação ou comentário!</p>
+                </div>
+            </button></a>
+        </div>
 
         <div class="rodape">
             <h1 class="h1rodape" style="padding: 5px 0px 0px 5px;"><a class="arodape1" href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!">Atendimento 24 horas por dia</a></h1>
@@ -219,7 +214,7 @@
                 <a href="https://www.instagram.com/eprivilegecar/"><img class="imgrodape" src="./imagemnew/imgLogos/instagram.png" alt="Instagram"></a>
                 <a href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!"><img class="imgrodape" src="./imagemnew/imgLogos/whatsapp.png" alt="Whatsapp"></a>
             </div>
-            <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="./paginas/comprar.php">Compre seu carro</a> <a class="aRodape" href="./paginas/vender.php">Venda seu carro</a>  <a class="aRodape" href="./paginas/05contatos.php">Contato</a> <a class="aRodape" href="./paginas/06politicadosite.php">Política do site</a></h1>
+            <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="./paginas/comprar.php">Compre seu carro</a> <a class="aRodape" href="./paginas/vender.php">Venda seu carro</a>  <!--<a class="aRodape" href="./paginas/05contatos.php">Contato</a>--> <a class="aRodape" href="./paginas/06politicadosite.php">Política do site</a></h1>
             <h1 style="text-align: center; font-size:15px; margin:0px;">@ePrivilegeCAR</h1>
         </div>
 
