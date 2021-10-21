@@ -3,21 +3,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>ePrivilège CAR</title>
-        <link rel="stylesheet" href="../css/cabecalho.css">
-        <link rel="stylesheet" href="../css/buscas.css">
-        <link rel="stylesheet" href="../css/comoFunciona.css">
-        <link rel="stylesheet" href="../css/rodape.css">
-        <link rel="stylesheet" href="../css/index.css">
-        <link rel="stylesheet" href="../css/formulario.css">
-        <link rel="stylesheet" href="../css/comprar.css">
-        
-        
-
+        <title>ePrivilegeCAR</title>
+        <link rel="sortcut icon" href="./imagemnew/imgLogos/eprivilegecar.png" type="image/x-icon">
         <link rel="stylesheet" href="../cssnew/whatsapp.css">
-
-
-        <script type="text/javascript" src="../javascript/validacoes.js"></script>
+        <link rel="stylesheet" href="../cssnew/headerFooter.css">
+        <link rel="stylesheet" href="../cssnew/comprar.css">
 
         <!-- TAG INICIO -->
         <meta name="description" content="ePRIVILÈGE CAR concessionária digital; B2B; Concessionária digital; Revenda de carros; Repasse; Venda seu carro;" />
@@ -32,20 +22,17 @@
         <!-- TAG FIM-->
     </head>
     <body>
-        <div class="container">
             
-            <?php require "./head.php" ?> 
+            <?php require "./headnew.php" ?> 
             <?php require "./whatsapp.php" ?>
+<!--
             <div class="comprar">
                 
-                <hr color="black">
-
-                
-                <?php
+                <?php /*
                     $conn = mysqli_connect($servidor, $dbusuario, $dbsenha, $dbname); #conexao com o banco de dados
                     mysqli_select_db($conn, '$dbname');#seleciona o banco
 
-                    $sql = 'SELECT id,cpf_vendedor,valor, modelo, marca, km, img1 FROM carro ';/*WHERE vendido = 0*/
+                    $sql = 'SELECT id,cpf_vendedor,valor, modelo, marca, km, img1 FROM carro ';#WHERE vendido = 0
                     if($res = mysqli_query($conn,$sql)){
                         $cpf_vendedor = array();
                         $img = array();
@@ -82,13 +69,109 @@
                             $i++;
                         }
                     }
+                    
+*/                ?>
+            <?php #mysqli_close($conn);#fecha o banco?>
+        </div>
+-->
+
+        <div class="parte1">
+            <h1 class="parte1h1 a">
+                Imagem
+            </h1>
+            <h1 class="parte1h1 b">
+                Código
+            </h1>
+            <h1 class="parte1h1 c">
+                Marca
+            </h1>
+            <h1 class="parte1h1 d">
+                Modelo
+            </h1>
+            <h1 class="parte1h1 e">
+                Categoria
+            </h1>
+            <h1 class="parte1h1 f">
+                Ano
+            </h1>
+            <h1 class="parte1h1 g">
+                Quilometragem
+            </h1>
+            <h1 class="parte1h1 h" style="border: none;">
+                Valor
+            </h1>
+        </div>
+            <?php
+                    $conn = mysqli_connect($servidor, $dbusuario, $dbsenha, $dbname); #conexao com o banco de dados
+                    mysqli_select_db($conn, '$dbname');#seleciona o banco
+
+                    $sql = 'SELECT id,cpf_vendedor,valor, modelo, marca, km, img1, tipo, ano FROM carro ';/*WHERE vendido = 0*/
+                    if($res = mysqli_query($conn,$sql)){
+                        $cpf_vendedor = array();
+                        $img = array();
+                        $id_carro = array();
+                        $modelo = array();
+                        $marca = array();
+                        $km = array(); ##QUILOMETRAGEM
+                        $valor = array();
+                        $tipo = array();
+                        $ano = array();
+                        
+                        $i = 0;
+                        while($reg = mysqli_fetch_assoc($res)){
+                            $cpf_vendedor[$i] = $reg['cpf_vendedor'];
+                            $img[$i] = $reg['img1'];
+                            $id_carro[$i] = $reg['id'];
+                            $modelo[$i] = $reg['modelo'];
+                            $marca[$i] = $reg['marca'];
+                            $valor[$i] = $reg['valor'];
+                            $km[$i] = $reg['km'];
+                            $caminho_img = "./upload/".$img[$i]; 
+                            $tipo[$i] = $reg['tipo'];
+                            $ano[$i] = $reg['ano'];
+
+                            ?>
+                            <a href="./realizarCompra.php?id=<?php echo $id_carro[$i]?>">
+                            <div class="parte2Produto">
+                                <h1 class="parte2img a">
+                                <?php echo"<img style='height:100px' src='$caminho_img' alt='Carro'>"?>
+                                </h1>
+                                <h1 class="parte2h1 b">
+                                <?php echo $id_carro[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 c">
+                                <?php echo $marca[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 d">
+                                <?php echo $modelo[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 e">
+                                <?php echo $tipo[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 f">
+                                <?php echo $ano[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 g">
+                                <?php echo $km[$i]?> <br>
+                                </h1>
+                                <h1 class="parte2h1 h" style="border: none;">
+                                <?php echo $valor[$i]?> <br>
+                                </h1>
+                            </div>
+                            </a>
+                            <hr style="width: 100%; color:white">
+                            
+
+                            <?php
+                            $i++;
+                        }
+                    }
                 ?>
             <?php mysqli_close($conn);#fecha o banco?>
             </div>
             
     
-            <?php require "./footer.php" ?> 
-        </div>
+            <?php require "./footernew.php" ?> 
 
     </body>
 </html>

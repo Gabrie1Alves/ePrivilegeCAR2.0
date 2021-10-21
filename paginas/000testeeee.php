@@ -1,47 +1,42 @@
-<html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-}
+<form form action="posvender.php" method="POST">
+  <label for="fname"><b>Informações do usuário</b></label> <br>
 
-.parallax {
-  /* The image used */
-  background-image: url('img_parallax.jpg');
+  <label for="name"> <br> Nome Completo:</label>
+  <input type="text" id="name" name="name" minlength="7" required placeholder="ex: João da Silva Medeiros">
 
-  /* Full height */
-  height: 100%; 
+  <label for="cpf">CPF:</label>
+  <input type="text" id="cpf" name="cpf" minlength="11" maxlength="11" required placeholder="ex: 00000000000">
 
-  /* Create the parallax scrolling effect */
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  <label for="fone">Fone:</label>
+  <input type="text" id="fone" name="fone" minlength="11" maxlength="11" required placeholder="ex: 41900000000">
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-</style>
-</head>
-<body>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required placeholder="ex: qwerty@abcd.com">
 
-<p>In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.</p>
-<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+  <label for="cep">Cep:</label>
+  <input type="text" id="cep" name="cep" minlength="8" maxlength="8" required placeholder="ex: 00000000">
 
-<div class="parallax"></div>
+  <label for="estado">Estado:</label>
+  <input type="text" id="estado" name="estado" required placeholder="ex: Parana">
 
-<div style="height:1000px;background-color:red;font-size:36px">
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
+  <label for="cidade">Cidade:</label>
+  <input type="text" id="cidade" name="cidade" required placeholder="ex: Parana">
 
-<div class="parallax"></div>
+  <label for="endereco">Endereço:</label>
+  <input type="text" id="endereco" name="endereco" minlength="5" required placeholder="ex: Rua dos pinheiros">
 
-</body>
-</html>
+  <label for="num">Número:</label>
+  <input type="number" id="num" name="num" min="0" required placeholder="ex: 201">
+
+  <label for="comp">Complemento:</label>
+  <input type="text" id="comp" name="comp" minlength="4" required placeholder="ex: casa, bloco, apartamento...">
+
+  <label>
+    <input type="checkbox"  name="recebeEmail"> Aceitar receber noficações e novidades.
+  </label>
+  <br>
+  <label for="condicoes">
+    <input type="checkbox" checked id="cond" name="cond"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
+  </label>
+  <a href="./posvender.php" ><input type="submit"   value="Enviar"></a>
+</form>

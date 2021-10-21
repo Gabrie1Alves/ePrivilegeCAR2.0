@@ -1,0 +1,271 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+.paleta{
+    color: white;
+    color: rgb(239, 241, 245);
+    color: black;
+    color: #ff4700;
+    color: rgb(207, 49, 228);
+    color: #00002ed7;
+}
+/******************************  PARTE 1  ************************************/
+.parte1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(239, 241, 245);
+}
+.parte1txt{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.parte1H1{
+    
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 150px;
+}
+.parte1divimg{
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+.parte1img{
+    height: 100%;
+    margin-left: calc(50% - 250px);
+}
+@media (max-width:1260px) {
+    .parte1H1{
+        margin-top: 120px;
+    }
+}
+@media (max-width:655px) {
+    .parte1H1{
+        margin-top: 100px;
+    }
+}
+@media (max-width:1000px) {
+    .parte1img{
+        height: 80%;
+        margin-top: 10%;
+        margin-left: 10px;
+    }
+}
+@media (max-width:720px) {
+    .parte1img{
+        height: 60%;
+        margin-top: 20%;
+        margin-left: 10px;
+    }
+}
+/**********************  PARTE 2  ******************************/
+/*
+.parte2titulo{
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.parte2h1titulo{
+    background-color: #00002ed7;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.parte2{
+    background-color: #00002ed7;
+    width: 100%;
+    height: 400px;
+}
+.parte2e{
+    
+    width: 50%;
+    float: left;
+}
+.parte2d{
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
+.parte2img{
+    margin-left: calc(50% - 108px);
+}
+.parte2txt{
+    color: white;
+    font-size: 28px;
+    text-align: justify;
+    padding:20px 40px 20px 20px;
+}
+@media (max-width:1300px) {
+    .parte2e{
+        width: 30%;
+    }
+    .parte2d{
+        width: 70%;
+    }
+    .parte2txt{
+        padding: 0px 20px 0px 20px;
+        font-size: x-large;
+    }
+}
+@media (max-width:1100px) {
+    .parte2{
+        height: 750px;
+    }
+    .parte2img{
+        margin-top: 187px;
+    }
+}
+*/
+/*******************  PARTE 3   **********************************/
+.parte3{
+    width: 100%;
+    background-color: rgb(239, 241, 245);
+}
+.parte3h1a{
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin: 0px;
+}
+.parte3h1b{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+/*****************  PARTE 4  ******************************/
+.parte4{
+    width: 100%;
+    background-color: #00002ed7;
+    padding: 40px 0px 40px 0px;
+    height: 600px;
+}
+.parte4CF{
+    float: left;
+    width: 50%;
+}
+.parte4FORM{
+    float: left;
+    width: 50%;
+}
+.parte4H1{
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin: 0px;
+}
+.parte4H2{
+    font-size: 28px;
+    padding: 0px 60px 0px 60px;
+    color: white;
+    text-align: justify;
+    padding-top: 100px;
+}
+.parte4a{
+    margin-left: calc(50% - 200px);
+}
+@media (max-width:1500px) {
+    .parte4H2{
+        padding-top: 50px;
+    }
+}
+@media (max-width:1200px) {
+    .parte4CF{
+        width: 100%;
+        float: none;
+    }
+    .parte4FORM{
+        width: 100%;
+        float: none;
+    }
+    .parte4{
+        height: 900px;
+    }
+    
+}
+@media (max-width:1100px) {
+    .parte4H2{
+        padding-top: 0px;
+    }
+}
+@media (max-width:850px) {
+    .parte4{
+        height: 1000px;
+    }
+}
+@media (max-width:700px) {
+    .parte4{
+        height: 1100px;
+    }
+}
+/*************************  FORMULÁRIO  ****************************/
+form{
+    margin-left: 9%;
+    width: 80%;
+    background-color: white;
+    border: 2px solid #00002ed7;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+}
+label{
+    font-size: 20px;
+}
+.parte3input{
+    width: 94%;
+    height: 30px;
+    margin-left: 3%;
+}
+.parte3input,input:invalid{
+    border: 1px solid red;
+    border-radius: 14px;
+}
+.parte3input,input:valid{
+    border: 1px solid green;
+    border-radius: 14px;
+}
+/*
+input:invalid {
+    border: 1px solid red;
+    border-radius: 14px;
+}
+  
+  input:valid {
+    border: 1px solid green;
+    border-radius: 14px;
+}*/
+
+.botao{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    
+    cursor: pointer;
+}
+.botao:hover{
+    border: 1px solid #ff4700;
+    background: #ff4700;
+    color: black;
+}

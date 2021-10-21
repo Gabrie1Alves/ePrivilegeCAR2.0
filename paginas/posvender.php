@@ -8,11 +8,11 @@
         $fone = $_POST["fone"];
         $email = $_POST["email"];
         $cep = $_POST["cep"];
-        $estado = $_POST["estado"];
-        $cidade = $_POST["cidade"];
-        $endereco = $_POST["endereco"];
-        $numero = $_POST["num"];
-        $complemento = $_POST["comp"];
+        $estado = 'NA'; #$_POST["estado"];
+        $cidade = 'Não informado'; #$_POST["cidade"];
+        $endereco = 'Não informado'; #$_POST["endereco"];
+        $numero = 0;#$_POST["num"];
+        $complemento = 'Não informado'; #$_POST["comp"];
         $recebeEmail = $_POST["recebeEmail"];
         $cond = $_POST["cond"];
 

@@ -1,0 +1,84 @@
+body{
+    margin:0px;
+}
+.paleta{
+    color: white;
+    color: rgb(239, 241, 245);
+    color: black;
+    color: #ff4700;
+    color: rgb(207, 49, 228);
+    color: #00002ed7;
+}
+/*****************  PARTE 1  **********************/
+.parte1{
+    width: 100%; 
+    height: 60px;
+    background-color: #00002ed7;
+}
+.parte1h1{
+    font-size: 25px;
+    padding-top: calc(30px - 12.5px);
+    padding-bottom: calc(30px - 12.5px);
+    margin: 0px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-right: 1px solid white;
+}
+.a, .b, .c, .d, .e, .f, .h{
+    width: 11.9%;
+}
+.g{
+    width: 16%;
+}
+@media (max-width:1300px) {
+    .a{
+        width: 150px;
+    }
+    .b{
+        width: 90px;
+    }
+    .c{
+        width: 85px;
+    }
+    .d{
+        width: 90px;
+    }
+    .e{
+        width: 110px;
+    }
+    .f{
+        width: 60px;
+    }
+    .g{
+        width: 170px;
+    }
+    .h{
+        width: 80px;
+    }
+}
+/***********************  PARTE 2 ********************************/
+.parte2Produto{
+    width: 100%; 
+    height: 100px;
+    background-color: rgba(239, 241, 245, 0.712);
+    margin-top: 5px;
+}
+
+.parte2h1{
+    font-size: 15px;
+    padding-top: calc(50px - 12.5px);
+    padding-bottom: calc(50px - 12.5px);
+    margin: 0px;
+    text-align: center;
+    color: black;
+    float: left;
+    border-right: 1px solid #00002ed7;
+}
+.parte2img{
+    margin: 0px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #00002ed7;
+}
