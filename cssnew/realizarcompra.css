@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+.paleta{
+    color: white;
+    color: rgb(239, 241, 245);
+    color: black;
+    color: #ff4700;
+    color: rgb(207, 49, 228);
+    color: #00002ed7;
+}
+.parte1{
+    background-color: rgb(239, 241, 245);
+}
+.esquerda{
+    width: 70%;
+    display: inline-block;
+}
+.direita{
+
+    float: right;
+    width: 30%;
+}
+.imagemEsquerda{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+}
+.imgseletor{
+    width:100%;
+    cursor:pointer;
+}
+.divminimg{
+    float: left;
+    width: 130px;
+    height: 80px;
+    margin: 10px 5px;
+}
+.dentrodireita{
+    width: 96%;
+    margin: 11% 2% 2% 2%;
+    border: 1px solid black;
+}
+.h1txt{
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.h2txt{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
