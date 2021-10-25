@@ -55,7 +55,7 @@
                         Seminovos, <br>
                         <span style="color: #ff4700;">Sem surpresas indesejadas.</span>
                     </h1>
-                    <iframe src="https://www.youtube.com/embed/QFJbE6lux4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/mRFLurqccaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="textoCompre">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </div>
-
+<!--
         <div class="venda">
             <div class="vendaEsquerda">
                 <div class="blocotxtvenda">
@@ -98,7 +98,27 @@
                 <img class="imgVenda1"  src="./imagemnew/carros/jeepFrenteSemFundo.jpg" alt="">
             </div>
         </div>
-        
+                    -->
+        <div class="vendarw">
+            <div class="esquerdarw">
+                <h1 style="text-align:center" class="h1rw">
+                    <span class="vendaCor" style="font-size: 40px;"> Venda seu carro, </span><br>
+                    <span>vamos até você para comprar seu carro!</span> 
+                </h1>
+                <h1 style="font-size: 25px; margin-left:10%;">
+                    - Obtenha a melhor oferta pelo seu carro. <br>
+                    - Pagamento seguro e imediato mediante a transferência. <br>
+                    - Retirada na porta da sua casa. <br>
+                    - Avaliamos seu carro em sua casa. <br>
+                    - Entregamos na sua casa. <br>
+                </h1>
+
+            </div>
+            <div class="direitarw">
+                <img class="imgrw" src="./imagemnew/imgIndex/carroSemFundo.png" alt="">
+            </div>
+
+        </div>
 
         <div class="comentarios">
 
