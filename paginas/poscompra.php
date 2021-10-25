@@ -11,11 +11,11 @@
         $fone = $_POST["fone"];
         $email = $_POST["email"];
         $cep = $_POST["cep"];
-        $estado = $_POST["estado"];
-        $cidade = $_POST["cidade"];
-        $endereco = $_POST["endereco"];
-        $numero = $_POST["num"];
-        $complemento = $_POST["comp"];
+        $estado = 'NA';#$_POST["estado"];
+        $cidade = 'Não Informado'; #$_POST["cidade"];
+        $endereco = 'Não Informado'; # $_POST["endereco"];
+        $numero = 0;#$_POST["num"];
+        $complemento = 'Não Informado'; # $_POST["comp"];
         $recebeEmail = $_POST["recebeEmail"];
         $cond = $_POST["condicoes"];
         $id_carro = $_POST["id_carro"];

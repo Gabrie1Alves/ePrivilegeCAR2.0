@@ -247,9 +247,10 @@
                 <div class="modalEsquerda">
                     <h3 style="font-size: 35px; color:white">Fale com a nossa equipe!</h3>
                     <form form action="./paginas/pospopup1557.php" method="post">
-                        <input class="inpuxIndex" id="email" name="email" type="email" placeholder="exemple@email.com"> <br> <br>
-                        <input class="inpuxIndex" id="nome" name="nome" type="text" placeholder="ex: Joao da Silva"> <br> <br>
-                        <input class="inpuxIndex" minlength="11" maxlength="11" id="fone" name="fone" type="text" placeholder="ex: 41900000000"> <br> <br>
+
+                        <input class="inpuxIndex" id="email" name="email" type="email" placeholder="exemple@email.com (email)"> <br> <br>
+                        <input class="inpuxIndex" id="nome" name="nome" type="text" placeholder="ex: Joao da Silva (nome completo)"> <br> <br>
+                        <input class="inpuxIndex" minlength="11" maxlength="11" id="fone" name="fone" type="text" placeholder="ex: 41900000000 (telefone)"> <br> <br>
                         <a href="./paginas/pospopup1557.php" ><input  class="botIndexPopUp" type="submit"   value="Cadastrar"></a>
                     </form>
                 </div>

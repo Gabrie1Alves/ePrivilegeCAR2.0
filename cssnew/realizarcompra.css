@@ -57,3 +57,62 @@ body{
     font-size: 20px;
     border-bottom: 1px solid black;
 }
+.parte2{
+    width: 100%;
+    background-color: #00002ed7;
+}
+.p2h1{
+    color: #ff4700;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.p2h2{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+form{
+    width: 500px;
+    background-color: white;
+    border-radius: 14px;
+    border:2px black solid;
+    padding: 20px;
+    margin-left: calc(50% - 250px);
+}
+label{
+    font-size: 20px;
+}
+.np{
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+}
+
+.np,input:invalid{
+    border: 1px solid red;
+    border-radius: 14px;
+}
+.np,input:valid{
+    border: 1px solid green;
+    border-radius: 14px;
+}
+
+.botao{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    
+    cursor: pointer;
+}
+.botao:hover{
+    border: 1px solid #ff4700;
+    background: #ff4700;
+    color: black;
+}
