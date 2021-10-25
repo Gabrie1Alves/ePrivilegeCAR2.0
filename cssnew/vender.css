@@ -206,15 +206,8 @@ div{
     .parte4H2{
         padding-top: 0px;
     }
-}
-@media (max-width:850px) {
     .parte4{
-        height: 1000px;
-    }
-}
-@media (max-width:700px) {
-    .parte4{
-        height: 1100px;
+        height:1050px;
     }
 }
 /*************************  FORMULÁRIO  ****************************/
