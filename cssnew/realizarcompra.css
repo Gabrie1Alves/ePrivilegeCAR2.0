@@ -35,6 +35,11 @@ body{
     height: 80px;
     margin: 10px 5px;
 }
+@media (max-width:1050px) {
+    .divminimg{
+        margin: 30px 30px;
+    }
+}
 .dentrodireita{
     width: 96%;
     margin: 11% 2% 2% 2%;

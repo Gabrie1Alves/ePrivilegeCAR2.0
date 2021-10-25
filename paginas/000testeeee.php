@@ -29,7 +29,7 @@
 
     <div class="parte1">
       <?php 
-        $id_carro = 3; #$_GET['id']
+        $id_carro = $_GET['id']; 
 
         $conn = mysqli_connect($servidor, $dbusuario, $dbsenha, $dbname); #conexao com o banco de dados
         mysqli_select_db($conn, '$dbname');#seleciona o banco
