@@ -101,17 +101,19 @@
                     -->
         <div class="vendarw">
             <div class="esquerdarw">
-                <h1 style="text-align:center" class="h1rw">
-                    <span class="vendaCor" style="font-size: 40px;"> Venda seu carro, </span><br>
-                    <span>vamos até você para comprar seu carro!</span> 
-                </h1>
-                <h1 style="font-size: 25px; margin-left:10%;">
-                    - Obtenha a melhor oferta pelo seu carro. <br>
-                    - Pagamento seguro e imediato mediante a transferência. <br>
-                    - Retirada na porta da sua casa. <br>
-                    - Avaliamos seu carro em sua casa. <br>
-                    - Entregamos na sua casa. <br>
-                </h1>
+                <div class="vendatxte">
+                    <h1 style="text-align:left" class="h1rw">
+                        <span class="vendaCor" style="font-size: 40px;"> Venda seu carro, </span><br>
+                        <span>vamos até você para comprar seu carro!</span> 
+                    </h1>
+                    <h1 style="font-size: 25px;">
+                        - Obtenha a melhor oferta pelo seu carro. <br>
+                        - Pagamento seguro e imediato. <br>
+                        - Retirada na porta da sua casa. <br>
+                        - Avaliamos seu carro em sua casa. <br>
+                        - Entregamos na sua casa. <br>
+                    </h1>
+                </div>
 
             </div>
             <div class="direitarw">

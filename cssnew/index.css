@@ -270,8 +270,8 @@ iframe{
 }
 .imgrw{
     height: 500px;
-    float: right;
-    margin-right: 10%;
+    float: left;
+    margin-left: 5%;
 }
 .h1rw{
     margin-top: 100px;
@@ -298,6 +298,25 @@ iframe{
 @media (max-width:1050px) {
     .h1rw{
         margin-top: 40px;
+    }
+}
+.vendatxte{
+    margin-left: 40%;
+}
+@media (max-width:1450px) {
+    .vendatxte{
+        margin-left: 30%;
+    }
+}
+@media (max-width:1200px) {
+    .vendatxte{
+        margin-left: 15%;
+    }
+}
+@media (max-width:1050px) {
+    .vendatxte{
+        margin-left: 5%;
+        margin-top: 70px;
     }
 }
 /**************************  COMENTÁRIOS  ***********************************/
