@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,100;1,700&display=swap');
+
+.paleta{
+    color: white;
+    color: rgb(239, 241, 245);
+    color: black;
+    color: #ff4700;
+    color: rgb(207, 49, 228);
+    color: #00002ed7;
+}
+body{
+    margin:0%;
+    padding: 0%;
+    background-color: white;
+}
+div{
+    margin:0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+/******************** INICIO **********************/
+#inicio{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(239, 241, 245);
+}
+.divideWidthEmDuasPartes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: center;
+}
+#inicio-esquerda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1-inicio{
+    padding: 20px;
+    font-size: 37px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#inicio-direita{
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+#inicio-img{
+    margin-left: 20px;
+    height: 75%;
+    margin: auto;
+}
+.btn{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 14px;
+}
+/**************** COMPRAR **************/
+#compra{
+    width: 100%;
+    height: 450px;
+    background-color: #00002ed7;
+}
+#compra-esquerda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+#h1-compra-esquerda{
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px 20px 10px 20px;
+}
+#compra-span{
+    font-size: 25px;
+    color: #ff4700;
+}
+#compra-frame{
+    width: 80%;
+    margin-left: 10%;
+    height: 260px;
+}
+#compra-deireita{
+    width: 100%; 
+}
+#h1-compra-direita{
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: #ff4700;
+}
+#h4compra-direita{
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+
+/************* VENDA **************/
+#venda{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(239, 241, 245);
+}
+#venda-esquerda{
+    width: 100%;
+}
+#h1-venda-esquerda{
+    width: 100%;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px 0px 20px;
+}
+#span-venda{
+    font-size: 23px;
+    color: #ff4700;
+    text-align: center;
+}
+#h4-venda-esquerda{
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+    padding-left: 15%;
+}
+@media (max-width:1200px) {
+    #h4-venda-esquerda{
+        padding-left: 20px;
+    }
+}
+#venda-esquerda{
+    width: 100%;
+}
+#venda-direita{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+#venda-img{
+    height: 75%;
+    margin: auto;
+}
+
+@media (max-width:900px) {
+    #inicio{
+        height: 500px;
+    }
+    #compra{
+        height: 500px;
+    }
+    #venda{
+        height: 500px;
+    }
+}
