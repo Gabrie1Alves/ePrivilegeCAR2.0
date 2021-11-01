@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200;1,700&display=swap');
+a{
+    color: black;
+    text-decoration: none;
+}
 /*HEADER*/
 .cab{
     width: 100%;
@@ -33,7 +38,7 @@
 .h1rodape{
     text-align: center;
     margin: 0px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .imgrodape{
     width: 40px;
@@ -46,7 +51,7 @@
     align-items: center;
 }
 .h1rodape2{
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px 0px 0px 0px;
     padding-bottom:5px ;
 }
@@ -71,3 +76,55 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+/*******************************************************************************************/
+#cab-future{
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+#opcoes-menu{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    padding: 0px 30px 30px;
+    height: 180px;
+    background-color: white;
+}
+.menu{
+    height: 40px;
+}
+.parte-esquerda:hover  #opcoes-menu{
+    display: block;
+}
+#p-menu{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+.parte-esquerda{
+    width: 40px;
+}
+.parte-direita{
+    width: calc(100% - 40px);
+}
+.h6-cab{
+    font-size: 18px;
+}
+.h6-cab:hover{
+    color: #ff4700;
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .cab{
+        display: none;
+    }
+    #cab-future{
+        display: flex;
+        flex-direction: row;
+    }
+}
+

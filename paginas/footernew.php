@@ -7,5 +7,5 @@
         <a href="https://api.whatsapp.com/send?phone=5541995465020&text=Ol%C3%A1,%20tenho%20uma%20duvida!"><img class="imgrodape" src="../imagemnew/imgLogos/whatsapp.png" alt="Whatsapp"></a>
     </div>
     <h1 class="h1rodape2" style="text-align: center;"><a class="aRodape" href="./comprar.php">Compre seu carro</a> <a class="aRodape" href="./vender.php">Venda seu carro</a>  <a class="aRodape" href="./05contatos.php">Contato</a> <a class="aRodape" href="./06politicadosite.php">Política do site</a></h1>
-    <h1 style="text-align: center; font-size:15px; margin:0px;">@ePrivilegeCAR</h1>
+    <h1 style="text-align: center; font-size:12px; margin:0px;">@ePrivilegeCAR</h1>
 </div>
