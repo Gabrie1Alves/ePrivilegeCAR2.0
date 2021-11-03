@@ -52,8 +52,8 @@
                         tudo sem burocracia!
                     </h1>
                     <br><br>
-                    <a class="abtn" href=""><button class="btn"><h1 class="h1-btn"> Venda seu carro! </h1></button></a> <br> <br>
-                    <a class="abtn" href=""><button class="btn"><h1 class="h1-btn"> Compre seu carro! </button></a>
+                    <a class="abtn" href="./paginas/vender.php"><button class="btn"><h1 class="h1-btn"> Venda seu carro! </h1></button></a> <br> <br>
+                    <a class="abtn" href="./paginas/comprar.php"><button class="btn"><h1 class="h1-btn"> Compre seu carro! </button></a>
                 </div>
                 <div class="direita centraliza controla" style="padding-bottom:0px; margin-bottom:-4px">
                     <img src="./imagemnew/imgIndex/novasimagens/homemSorrindo.png" alt="" id="imagem-inicio">
@@ -78,7 +78,7 @@
                     <h3 class="h3-conteudos" style="color: white;">• Acompanhamento durante todo o processo;</h3>
                     <h3 class="h3-conteudos" style="color: white;">• Entregamos na sua casa.</h3>
                     <br> <br>
-                    <a class="abtn" href=""><button class="btn"><h1 class="h1-btn"> Compre seu carro! </button></a>
+                    <a class="abtn" href="./paginas/comprar.php"><button class="btn"><h1 class="h1-btn"> Compre seu carro! </button></a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
                     <h3 class="h3-conteudos" style="color: black;">• Pagamento seguro e imediato.</h3>
                     <h3 class="h3-conteudos" style="color: black;">• Retirada na porta da sua casa.</h3>
                     <h3 class="h3-conteudos" style="color: black;">• Avaliamos seu carro em sua casa.</h3> <br><br>
-                    <a class="abtn" href=""><button class="btn"><h1 class="h1-btn"> Venda seu carro! </button></a>
+                    <a class="abtn" href="./paginas/vender.php"><button class="btn"><h1 class="h1-btn"> Venda seu carro! </button></a>
                 </div>
                 <div class="direita centraliza controla imagem-venda-control" style="padding-top: 0px; padding-bottom:0px">
                     <img src="./imagemnew/imgIndex/novasimagens/mulher-chave.png" alt="" id="imagem-venda">

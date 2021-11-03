@@ -1,309 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200;1,700&display=swap');
+.paleta{
+    color: white;
+    color: rgb(239, 241, 245);
+    color: black;
+    color: #ff4700;
+    color: rgb(207, 49, 228);
+    color: #00002ed7;
+}
 body{
+    margin:0%;
+    padding: 0%;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    margin:0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+h1{
     margin: 0px;
     padding: 0px;
 }
-/*MAX WIDTH 1000 PX*/
-/***********************############################## PARTE 1 ##########################******************/
-.parte1{
-    width: 100%;
-    height: 400px;
-    background-color: rgb(239, 241, 245);
-}
-.parte1esquerda{
-    width: 50%;
-    height: 400px;
-    display: inline-block;
-}
-.parte1H1{
-    text-align: center;
-    margin-top: 130px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 40px;
-}
-.parte1direita{
-    width: 50%;
-    height: 400px;
-    float: right;
-}
-.parte1img{
-    height: 400px;
-    margin-left: 10px;
-}
-/*imagem da parte 1*/
-@media (max-width:1050px) {
-    .parte1img{
-        height: 300px;
-        margin-top: 50px;
-        margin-left: 0px;
-    }
-}
-@media (max-width:790px) {
-    .parte1img{
-        height: 250px;
-        margin-top: 75px;
-        margin-left: 0px;
-    }
-}
-@media (max-width:650px) {
-    .parte1img{
-        height: 230px;
-        margin-top: 85px;
-        margin-left: 0px;
-    }
-}
-/*texto da parte 1*/
-@media (max-width:1590px) {
-    .parte1H1{
-        margin-top: 120px;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}
-@media (max-width:1360px) {
-    .parte1H1{
-        margin: 100px 10% 0% 10%;
-    }
-}
-@media (max-width:930px) {
-    .parte1H1{
-        margin: 80px 5% 0% 5%;
-    }
-}
-@media (max-width:675px) {
-    .parte1H1{
-        margin: 60px 5% 0% 5%;
-    }
-}
-/*#####################  PARTE 2  #############################*/
-.parte2{
-    width: 100%;
-    height: 500px;
-    background-color: #00002ed7;
-}
-.parte2esquerda{
-    width: 50%;
-    height: 500px;
-    display: inline-block;
-}
-.parte2direita{
-    width: 50%;
-    height: 500px;
-    float: right;
-}
-.parte2img{
-    margin-top: 33px;
-    margin-left: 20%;
-}
-@media (max-width:810px) {
-    .parte2img{
-        margin-left: 5%;
-    }
-}
-@media (max-width:680px) {
-    .parte2img{
-        margin-left: 0%;
-    }
-}
-.parte2H1{
-    text-align: center;
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 40px;
-}
-.parte2H2{
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
 
-}
-@media (max-width:1000px) {
-    .parte2{
-        height: 520px;
-    }
-    .parte2esquerda{
-        width: 350px;
-        height: 520px;
-    }
-    .parte2img{
-        margin: 52px 0px 0px 0px;
-    }
-    .parte2direita{
-        width: calc(100% - 350px);
-        height: 520px;
-    }
-    .parte2H2{
-        padding: 5px 40px 5px 5px;
-        font-size: 21px;
-    }
-}
-
-/**************************************  PARTE 3  *********************************************************/
-.parte3{
-    width: 100%;
-    height: 400px;
-    background-color: rgb(239, 241, 245);
-}
-.parte3esquerda{
-    width: 60%;
-    height: 400px;
-    display: inline-block;
-}
-.parte3direita{
-    width: 40%;
-    height: 400px;
-    float: right;
-}
-.parte3H1{
-    text-align: center;
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 40px;
-}
-.parte3H2{
-    text-align: justify;
-    color: black;
-    font-size: 20px;
-    padding: 20px;
-    margin: 0 8% 0 8%;
-
-}
-.parte3img{
-    height: 400px;
-}
-@media (max-width:1270px) {
-    .parte3H2{
-        padding: 0 0 0 20px;
-        font-size: 20px;
-    }
-    .parte3img{
-        height: 300px;
-        margin-top: 50px;
-    }
-}
-@media (max-width:1000px) {
-    .parte3{
-        height: 550px;
-    }
-    .parte3direita{
-        height: 550px;
-    }
-    .parte3esquerda{
-        height: 550px;
-    }
-
-    .parte3H2{
-        padding: 0 0 0 10px;
-        font-size: 21px;
-        margin: 4%;
-    }
-    .parte3img{
-        height: 270px;
-        margin-top: 140px;
-    }
-}
-/**************************   PARTE 4 ***********************************/
-.parte4{
-    width: 100%;
-    height: 400px;
-    background-color: #00002ed7;
-}
-.parte4img{
-    width: 100px;
-    margin-left: calc(50% - 50px);
-    margin-top: 40px;
-}
-.parte4H1{
-    text-align: center;
+.h1-titulos{
     font-size: 35px;
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #ff4700;
 }
-.parte4H2{
-    color: white;
+.h1-valores{
+    font-size: 27px;
+    color: #ff4700;
+    text-align: center;
+}
+.h3-conteudos{
     font-size: 23px;
-    width: 86%;
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-bottom:20px;
+    margin: 0px;
+    padding: 15px 0px 00px 0px;
 }
-@media (MAX-WIDTH:1170px) {
-    .parte4{
-        height: 500px;
-    }
-    .parte4H1{
+.h3-resp{
+    font-size: 18px;
+    margin: 0px;
+    padding: 15px 0px 00px 0px;
+}
+h5{
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+h4{
+    font-size: 17px;
+    color: white;
+    padding-left: 20px;
+}
+
+
+.container-cinza{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    display: block;
+    background-color: rgb(239, 241, 245);
+}
+.container-azul{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    display: block;
+    background-color: #00002ed7;
+}
+.divide-em-duas-partes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.esquerda{
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: calc(100% - 50px);
+}
+.direita{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: calc(100% - 50px);
+}
+.centraliza{
+    margin: auto;
+}
+#frase-intonacao{
+    text-align: center;
+    color: #ff4700;
+    font-size: 35px ;
+}
+.btn{
+    
+    width: 260px;
+    height: 30px;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.h1-btn{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.abtn{
+    margin-left: calc(50% - 130px);
+}
+
+
+/*-------------------------------------------------------------*/
+#homemcomchave{
+    padding-left: calc(50% - 220px);
+}
+#mulhercomcelular{
+    padding-left: calc(50% - 161px);
+}
+#carrocupra{
+    width: 500px;
+    padding-left: calc(50% - 250px);
+}
+/********************************************************************/
+#partes-valores{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.bloco-valores{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 33%;
+}
+.valores{
+    width: 150px;
+    padding-left: calc(50% - 75px);
+}
+
+/**********************************************************/
+.pergunta{
+    background-color: white;
+    border-radius: 14px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#txt-pergunta{
+    width: 90%;
+}
+#resposta-pergunta{
+    width: 10%;
+}
+
+.btn-p{
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    width: 100%;
+
+}
+#r1{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r2{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r3{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r4{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s4{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r5{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s5{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r6{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s6{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+#r7{
+    display: none;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#s7{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+@media (max-width:1400px) {
+    .h1-titulos{
         font-size: 30px;
     }
-    .parte4H2{
+    .h1-valores{
+        font-size: 23px;
+    }
+    .h3-conteudos{
         font-size: 20px;
     }
+    .h3-resp{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 13px;
+    }
+    .container-azul{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: calc(100% - 60px);
+    }
+    .container-cinza{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: calc(100% - 60px);
+    }
+    .pergunta{
+        width: calc(100% - 60px);
+    }
+    #homemcomchave{
+        width: 300px;
+        
+    }
+    #carrocupra{
+        width: 400px;
+    }
+    #mulhercomcelular{
+        width: 300px;
+    }
 }
-/***********************PERGUNTAS FREQUENTES*******************/
-.perguntas{
-    width: 100%;
-    background-color: rgb(239, 241, 245);
-    padding-bottom: 30px;
+@media (max-width:1000px) {
+    .h1-titulos{
+        font-size: 25px;
+    }
+    .h1-valores{
+        font-size: 20px;
+    }
+    .h3-conteudos{
+        font-size: 17px;
+    }
+    .h3-resp{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 13px;
+    }
+    .container-azul{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: calc(100% - 60px);
+    }
+    .container-cinza{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: calc(100% - 60px);
+    }
+    .pergunta{
+        width: calc(100% - 60px);
+    }
+    #homemcomchave{
+        width: 300px;
+        
+    }
+    #carrocupra{
+        width: 400px;
+    }
+    #mulhercomcelular{
+        width: 300px;
+    }
 }
-.vendaCorP{
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.pEsquerda{
-    width: 50%;
-    display: inline-block;
-}
-.pDireita{
-    width: 50%;
-    float: right;
-}
-.pergunta{
-    margin-bottom: 10px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: #00002ed7 1px solid;
-   
-    border-right: none;
-    border-left: none;
-    border-radius: 20px;
-    font-size: 10px;
-}
-.h2perguntas{
-    margin: 5px 10px 5px 10px;
-    display: none;
-}
-.pergunta:hover{
-    border: #ff4700 1px solid;
-}
-.pergunta:hover .h2perguntas{
-    display: block;
-}
-.pergunta:hover h1{
-    background-image: linear-gradient(90deg, #ff4700, rgb(207, 49, 228));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-@media (max-width:1300px) {
-    .h1h1p{
+@media (max-width:890px) {
+    #carrocupra{
         display: none;
     }
-}
-@media (max-width: 1300px) {
-    .perguntas{
-        padding-bottom: 90px;
+    .nossa-visao{
+        display: block;
+        width: 100%;
     }
+}
+
+@media (max-width:770px) {
+    #mulhercomcelular{
+        display: none;
+    }
+    .quem-somos{
+        display: block;
+        width: 100%;
+    }
+    .tira-margem{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .valores-esquerda{
+        padding-left: 0px;
+    }
+    .valores-direita{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:720px) {
+    #homemcomchave{
+        display: none;
+    }
+    .primeiro-bloco{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width:670px) {
+    #partes-valores{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .bloco-valores{
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#resposta{
+    display: none;
 }
