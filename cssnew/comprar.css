@@ -1,82 +1,61 @@
 body{
-    margin:0px;
-}
-.paleta{
-    color: white;
-    color: rgb(239, 241, 245);
-    color: black;
-    color: #ff4700;
-    color: rgb(207, 49, 228);
-    color: #00002ed7;
-}
-/*****************  PARTE 1  **********************/
-.parte1{
-    width: 100%; 
-    height: 60px;
-    background-color: #00002ed7;
-}
-.parte1h1{
-    font-size: 25px;
-    padding-top: calc(30px - 12.5px);
-    padding-bottom: calc(30px - 12.5px);
     margin: 0px;
-    text-align: center;
-    color: white;
-    float: left;
-    border-right: 1px solid white;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-.a, .b, .c, .d, .e, .f, .h, .g{
-    width: 12%;
-}
-
-@media (max-width:1300px) {
-    .a{
-        width: 150px;
-    }
-    .b{
-        width: 100px;
-    }
-    .c{
-        width: 95px;
-    }
-    .d{
-        width: 100px;
-    }
-    .e{
-        width: 120px;
-    }
-    .f{
-        width: 70px;
-    }
-    .g{
-        width: 70px;
-    }
-    .h{
-        width: 90px;
-    }
-}
-/***********************  PARTE 2 ********************************/
-.parte2Produto{
-    width: 100%; 
-    height: 100px;
-    background-color: rgba(239, 241, 245, 0.712);
-    margin-top: 5px;
+#corpo-prod{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.parte2h1{
+.produto{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(239, 241, 245);
+    display: inline-block;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 14px;
+}
+.produto:hover{
+    box-shadow: black 4px 4px  10px; 
+}
+.img{
+    width: 100%;
+    height: 190px;
+}
+a{
+    margin: 0px 2px 0px 2px;
+}
+.titulo-prod{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    padding: 5px 0px 5px 10px;
+}
+.resp-prod{
+    margin: 0px;
+    padding: 0px;
     font-size: 15px;
-    padding-top: calc(50px - 12.5px);
-    padding-bottom: calc(50px - 12.5px);
-    margin: 0px;
-    text-align: center;
-    color: black;
-    float: left;
-    border-right: 1px solid #00002ed7;
+    text-transform: lowercase;
 }
-.parte2img{
-    margin: 0px;
-    height: 100px;
-    text-align: center;
-    float: left;
-    border-right: 1px solid #00002ed7;
+.desconto{
+    color: red;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+.simbolo{
+    text-transform: uppercase;
+}
+
+@media (max-width:1150px) {
+    #corpo-prod{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: calc(100% - 60px);
+    }
 }

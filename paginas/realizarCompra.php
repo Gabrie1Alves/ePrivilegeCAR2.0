@@ -144,83 +144,123 @@
 
         <div class="direita">
           <div class="dentrodireita">
-            <h1 class="h1txt">Descrição</h1>
-            <h2 class="h2txt">Código: <?php echo "$id" ?></h2>
-            <h2 class="h2txt">Valor: <?php echo "R$ "."$valor".",00" ?></h2>
-            <h2 class="h2txt">Modelo: <?php echo "$modelo" ?></h2>
-            <h2 class="h2txt">Marca: <?php echo "$marca" ?></h2>
-            <h2 class="h2txt">Categoria: <?php echo "$tipo" ?></h2>
-            <h2 class="h2txt">Ano: <?php echo "$ano" ?></h2>
-            <h2 class="h2txt">Quilometragem: <?php echo "$km" ?></h2>
-            <h2 class="h2txt">Potencia: <?php echo "$potencia" ?></h2>
-            <h2 class="h2txt">Combustível: <?php echo "$combustivel" ?></h2>
-            <h2 class="h2txt">Câmbio: <?php echo "$cambio" ?></h2>
-            <h2 class="h2txt">Direção: <?php echo "$direcao" ?></h2>
-            <h2 class="h2txt">Portas: <?php echo "$portas" ?></h2>
-            <h2 class="h2txt">Cor: <?php echo "$cor" ?></h2>
-            <h2 class="h2txt">Numero da placa: <?php echo "$placa" ?></h2>
-            <h2 class="h2txt" style="margin-bottom: 0px; border:none">Descrição: <?php echo "$descricao" ?></h2>
+          <h1 class="h1txt">Descrição</h1>
+            <h2 class="h2txt">Código: <span class="valores"><?php echo "$id" ?></span> </h2>
+            <h2 class="h2txt">Valor: <span class="valores2"><?php echo "R$ "."$valor".",00" ?></span> </h2>
+            <h2 class="h2txt">Modelo: <span class="valores"> <?php echo "$modelo" ?></span></h2>
+            <h2 class="h2txt">Marca: <span class="valores"><?php echo "$marca" ?></span> </h2>
+            <h2 class="h2txt">Categoria: <span class="valores"><?php echo "$tipo" ?></span> </h2>
+            <h2 class="h2txt">Ano: <span class="valores"><?php echo "$ano" ?></span> </h2>
+            <h2 class="h2txt">Quilometragem: <span class="valores"><?php echo "$km" ?></span> </h2>
+            <h2 class="h2txt">Potencia: <span class="valores"><?php echo "$potencia" ?></span> </h2>
+            <h2 class="h2txt">Combustível: <span class="valores"><?php echo "$combustivel" ?></span> </h2>
+            <h2 class="h2txt">Câmbio: <span class="valores"><?php echo "$cambio" ?></span> </h2>
+            <h2 class="h2txt">Direção: <span class="valores"><?php echo "$direcao" ?></span> </h2>
+            <h2 class="h2txt">Portas: <span class="valores"><?php echo "$portas" ?></span> </h2>
+            <h2 class="h2txt">Cor: <span class="valores"><?php echo "$cor" ?></span> </h2>
+            <h2 class="h2txt">Numero da placa: <span class="valores"><?php echo "$placa" ?></span> </h2>
+            <h2 class="h2txt" style="margin-bottom: 0px; border:none">Descrição: <span class="valores"><?php echo "$descricao" ?></span> </h2>
           </div>
-
         </div>
       </div>
     </div>
-    <div class="parte2">
-      <h1 class="p2h1">Quer negociar com a gente?</h1>
-      <h2 class="p2h2">Preencha as informações, ou entre em contato pelo Whatsapp!</h2>
-      <form form action="poscompra.php" method="post">
-        <label for="name"><br> Nome Completo:</label> <br>
-        <input class="np" type="text" id="name" name="name" minlength="7" required placeholder="ex: João da Silva Medeiros">
+    <div id="neg-um">
+            <h1 id="titulo-negocia-um">Quer negociar com a gente?</h1>
+            <h2 id="subtitulo-negocia-um">Preencha as informações a baixo, em breve entraremos em contato com você! <br> <br> Ou se preferir, nos envie uma mensagem pelo Whatsapp!</h2>
+            <form class="form-um" action="poscompra.php" method="post">
+              <label for="name"><br> Nome Completo:</label> <br>
+              <input class="input-form-um" type="text" id="name" name="name" minlength="7" required placeholder="ex: João da Silva Medeiros">
 
-        <label for="cpf"> <br>CPF ou CNPJ:</label> <br>
-        <input class="np" type="text" id="cpf" name="cpf" minlength="11" maxlength="14" required placeholder="ex: 00000000000">
+              <label for="cpf"> <br>CPF ou CNPJ:</label> <br>
+              <input class="input-form-um" type="text" id="cpf" name="cpf" minlength="11" maxlength="14" required placeholder="ex: 00000000000">
 
-        <label for="fone"> <br>Fone:</label> <br>
-        <input class="np" type="text" id="fone" name="fone" minlength="11" maxlength="11" required placeholder="ex: 41900000000">
+              <label for="fone"> <br>Fone:</label> <br>
+              <input class="input-form-um" type="text" id="fone" name="fone" minlength="11" maxlength="11" required placeholder="ex: 41900000000">
 
-        <label for="email"> <br>Email:</label> <br>
-        <input class="np" type="email" id="email" name="email" required placeholder="ex: exemple@exemple.com">  <br>
+              <label for="email"> <br>Email:</label> <br>
+              <input class="input-form-um" type="email" id="email" name="email" required placeholder="ex: exemple@exemple.com">  <br>
 
-       <label for="cep">Cep:</label>
-        <input class="np" type="text" id="cep" name="cep" minlength="8" maxlength="8" required placeholder="ex: 00000000">
-<!-- 
-        <label for="estado">Estado:</label>
-        <select id="estado" name="estado">
-          <option value="parana">Paraná</option>
-        </select>
+              <label for="cep">Cep:</label>
+              <input class="input-form-um" type="text" id="cep" name="cep" minlength="8" maxlength="8" required placeholder="ex: 00000000">
 
-        <label for="cidade">Cidade:</label>
-        <input type="text" id="cidade" name="cidade" minlength="4" required placeholder="ex: curitiba">
+              <label> <br>
+                <input type="checkbox"   name="recebeEmail"> Aceitar receber noficações e novidades.
+              </label> <br>
+              <br>
+              <label for="condicoes">
+                <input type="checkbox" checked  id="condicao" name="condicoes"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
+              </label><br>
 
-        <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" name="endereco" minlength="4" required placeholder="ex: Rua dos pinheiros">
+              <select style="display: none;" id="idcarro" name="id_carro">
+                <option value="<?php echo $id_carro?>"><?php echo $id_carro?></option>
+              </select>
 
-        <label for="num">Número:</label>
-        <input type="number" id="num" name="num" min="0" required placeholder="ex: 201">
+              <select style="display: none;" id="cpfvendedor" name="cpf_vendedor">
+                <option value="<?php echo $cpf_vendedor?>"><?php echo $cpf_vendedor?></option>
+              </select>
+              <a class="abtn" href="./poscompra.php?id=<?php echo $id_carro?>?>"><input  class="btn h1-btn"  type="submit"  value="Enviar"><!--onclick="validaFormVenda();"--></a>
+            </form>
+          </div>
+    <div id="info-cad">
+          <div id="descricao">
+            <h1 class="h1txt">Descrição</h1>
+            <h2 class="h2txt">Código: <span class="valores"><?php echo "$id" ?></span> </h2>
+            <h2 class="h2txt">Valor: <span class="valores2"><?php echo "R$ "."$valor".",00" ?></span> </h2>
+            <h2 class="h2txt">Modelo: <span class="valores"> <?php echo "$modelo" ?></span></h2>
+            <h2 class="h2txt">Marca: <span class="valores"><?php echo "$marca" ?></span> </h2>
+            <h2 class="h2txt">Categoria: <span class="valores"><?php echo "$tipo" ?></span> </h2>
+            <h2 class="h2txt">Ano: <span class="valores"><?php echo "$ano" ?></span> </h2>
+            <h2 class="h2txt">Quilometragem: <span class="valores"><?php echo "$km" ?></span> </h2>
+            <h2 class="h2txt">Potencia: <span class="valores"><?php echo "$potencia" ?></span> </h2>
+            <h2 class="h2txt">Combustível: <span class="valores"><?php echo "$combustivel" ?></span> </h2>
+            <h2 class="h2txt">Câmbio: <span class="valores"><?php echo "$cambio" ?></span> </h2>
+            <h2 class="h2txt">Direção: <span class="valores"><?php echo "$direcao" ?></span> </h2>
+            <h2 class="h2txt">Portas: <span class="valores"><?php echo "$portas" ?></span> </h2>
+            <h2 class="h2txt">Cor: <span class="valores"><?php echo "$cor" ?></span> </h2>
+            <h2 class="h2txt">Numero da placa: <span class="valores"><?php echo "$placa" ?></span> </h2>
+            <h2 class="h2txt" style="margin-bottom: 0px; border:none">Descrição: <span class="valores"><?php echo "$descricao" ?></span> </h2>
+          </div>
 
-        <label for="comp">Complemento:</label>
-        <input type="text" id="comp" name="comp" minlength="4" required placeholder="ex: casa, bloco, apartamento...">
--->
-        <label>
-          <input type="checkbox"   name="recebeEmail"> Aceitar receber noficações e novidades.
-        </label>
-        <br>
-        <label for="condicoes">
-          <input type="checkbox"  id="condicao" name="condicoes"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
-        </label>
 
-        <select style="display: none;" id="idcarro" name="id_carro">
-          <option value="<?php echo $id_carro?>"><?php echo $id_carro?></option>
-        </select>
 
-        <select style="display: none;" id="cpfvendedor" name="cpf_vendedor">
-          <option value="<?php echo $cpf_vendedor?>"><?php echo $cpf_vendedor?></option>
-        </select>
-        <a style="margin-left: 50px;" href="./poscompra.php?id=<?php echo $id_carro?>?>"><input class="botao" type="submit"  value="Enviar"><!--onclick="validaFormVenda();"--></a>
-      </form>
+          <div id="negociar">
+            <h1 id="titulo-negocia">Quer negociar com a gente?</h1>
+            <h2 id="subtitulo-negocia">Preencha as informações a baixo, em breve entraremos em contato com você! <br> <br> Ou se preferir, nos envie uma mensagem pelo Whatsapp!</h2>
+            <form class="form-dois" action="poscompra.php" method="post">
+              <label for="name"><br> Nome Completo:</label> <br>
+              <input class="input-form" type="text" id="name" name="name" minlength="7" required placeholder="ex: João da Silva Medeiros">
 
+              <label for="cpf"> <br>CPF ou CNPJ:</label> <br>
+              <input class="input-form" type="text" id="cpf" name="cpf" minlength="11" maxlength="14" required placeholder="ex: 00000000000">
+
+              <label for="fone"> <br>Fone:</label> <br>
+              <input class="input-form" type="text" id="fone" name="fone" minlength="11" maxlength="11" required placeholder="ex: 41900000000">
+
+              <label for="email"> <br>Email:</label> <br>
+              <input class="input-form" type="email" id="email" name="email" required placeholder="ex: exemple@exemple.com">  <br>
+
+              <label for="cep">Cep:</label>
+              <input class="input-form" type="text" id="cep" name="cep" minlength="8" maxlength="8" required placeholder="ex: 00000000">
+
+              <label> <br>
+                <input type="checkbox"   name="recebeEmail"> Aceitar receber noficações e novidades.
+              </label> <br>
+              <br>
+              <label for="condicoes">
+                <input type="checkbox" checked  id="condicao" name="condicoes"> Ao clicar no botão abaixo declaro estar ciente e de acordo com os <a style="color: black;" href="./06politicadosite.php">TERMOS E CONDIÇÕES DE USO e POLÍTICA DE PRIVACIDADE</a>.
+              </label><br>
+
+              <select style="display: none;" id="idcarro" name="id_carro">
+                <option value="<?php echo $id_carro?>"><?php echo $id_carro?></option>
+              </select>
+
+              <select style="display: none;" id="cpfvendedor" name="cpf_vendedor">
+                <option value="<?php echo $cpf_vendedor?>"><?php echo $cpf_vendedor?></option>
+              </select>
+              <a class="abtn" href="./poscompra.php?id=<?php echo $id_carro?>?>"><input  class="btn h1-btn"  type="submit"  value="Enviar"><!--onclick="validaFormVenda();"--></a>
+            </form>
+          </div>
     </div>
-
     <?php require "./footernew.php" ?>
   </body>
 </html>
