@@ -10,10 +10,10 @@
         die("Falha na conexão: " .mysqli_connect_error());
     }else{}
 /*
-    $servidor="localhost";
-    $dbname="u701525916_eprivilegecar";
-    $dbusuario = "u701525916_eprivilegecar";
-    $dbsenha = "e234Privilege765car";
+    $servidor="xxxxxxxxxxxxxxxxxx";
+    $dbname="xxxxxxxxxxxxxxx";
+    $dbusuario = "xxxxxxxxxxxxx";
+    $dbsenha = "xxxxxxxxxxxxx";
 
     $conn = mysqli_connect($servidor, $dbusuario, $dbsenha, $dbname);
 
